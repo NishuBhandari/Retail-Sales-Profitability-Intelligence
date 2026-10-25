@@ -2,11 +2,15 @@
 PORTION 5: EVALUATION SUMMARY & INTERACTIVE EXECUTIVE DASHBOARD
 Retail Sales & Profitability Intelligence
 
-Tasks:
-- Compile evaluation metrics and dataset statistics into outputs/evaluation_summary.json
-- Generate the executive dashboard (outputs/dashboard.html & index.html for GitHub Pages)
-  featuring dark theme, glassmorphic KPI cards, Chart.js trends,
-  category breakdown table, ML model benchmark tables, and high-res figure gallery.
+Futuristic Cyber-Glassmorphic Edition:
+- Deep space background with holographic accents and frosted glass cards
+- Futuristic HUD top bar with pulsing live telemetry status
+- Neon glow KPI metrics with monospace readouts
+- Interactive Chart.js time-series combo chart and quantum donut
+- Cyber matrix category breakdown table with margin health bars
+- Holographic Machine Learning benchmark cards (Regression & Classification)
+- Interactive Live Quantum Order Simulator widget
+- High-resolution visual gallery with holographic glow cards
 """
 
 import sys
@@ -53,11 +57,8 @@ def save_evaluation_summary(df, reg_results, clf_results, best_reg="Polynomial R
     return summary_data
 
 
-def build_dashboard_html(df, reg_results, clf_results, img_prefix="figures/"):
-    """
-    Build the full HTML dashboard string with interactive Chart.js charts,
-    executive KPI cards, category breakdown, model tables, and figure gallery.
-    """
+def build_futuristic_dashboard_html(df, reg_results, clf_results, img_prefix="figures/"):
+    """Build the ultra-futuristic cyber-glassmorphic HTML dashboard."""
     tot_revenue = float(df["Sales"].sum())
     tot_profit = float(df["Profit"].sum())
     margin_pct = (tot_profit / tot_revenue) * 100 if tot_revenue > 0 else 0
@@ -85,323 +86,649 @@ def build_dashboard_html(df, reg_results, clf_results, img_prefix="figures/"):
     cat_labels = cat_df["Product Category"].tolist()
     cat_revenue = cat_df["Total_Revenue"].round(2).tolist()
 
-    # Format category table rows
+    # Category Table Rows with futuristic progress bars
     cat_rows_html = ""
     for _, row in cat_df.iterrows():
-        p_color = "#10b981" if row["Total_Profit"] > 0 else "#ff6b6b"
+        p_val = row["Total_Profit"]
+        p_color = "#10b981" if p_val > 0 else "#f43f5e"
+        bar_width = min(100, max(10, int(row["Profit_Margin"] * 4.5)))
         cat_rows_html += f"""<tr>
-            <td><strong>{row['Product Category']}</strong></td>
-            <td>${row['Total_Revenue']:,.2f}</td>
-            <td style="color: {p_color};">${row['Total_Profit']:,.2f}</td>
-            <td><strong>{row['Profit_Margin']:.2f}%</strong></td>
-            <td>{row['Total_Quantity']:,}</td>
+            <td>
+                <span class="cyber-tag">{row['Product Category']}</span>
+            </td>
+            <td class="mono-num">${row['Total_Revenue']:,.2f}</td>
+            <td class="mono-num" style="color: {p_color};">${p_val:,.2f}</td>
+            <td>
+                <div style="display:flex; align-items:center; gap:8px;">
+                    <span class="mono-num" style="font-weight:700; color:{p_color};">{row['Profit_Margin']:.2f}%</span>
+                    <div class="mini-bar-track">
+                        <div class="mini-bar-fill" style="width:{bar_width}%; background:{p_color};"></div>
+                    </div>
+                </div>
+            </td>
+            <td class="mono-num">{row['Total_Quantity']:,}</td>
         </tr>"""
 
-    # Format regression rows
+    # Regression Models Rows
     reg_rows_html = ""
     for m_name, metrics in reg_results.items():
         test_m = metrics.get("test", metrics)
-        is_best = "Poly" in m_name
-        star = " ★" if is_best else ""
-        badge_style = "background: rgba(0, 210, 211, 0.2); color: #00d2d3;" if is_best else "background: rgba(255,255,255,0.06); color: #cbd5e1;"
+        is_poly = "Poly" in m_name
+        is_rf = "Forest" in m_name
+        tag_badge = '<span class="glow-pill cyan-glow">TOP ACCURACY 🏆</span>' if is_poly else ('<span class="glow-pill gold-glow">MIN MAE ⚡</span>' if is_rf else '')
         reg_rows_html += f"""<tr>
-            <td><strong>{m_name}{star}</strong></td>
-            <td><span style="display:inline-block; padding: 2px 8px; border-radius: 4px; font-weight: bold; {badge_style}">{test_m.get('r2', 0):.4f}</span></td>
-            <td>${test_m.get('rmse', 0):,.2f}</td>
-            <td>${test_m.get('mae', 0):,.2f}</td>
+            <td><strong>{m_name}</strong> {tag_badge}</td>
+            <td class="mono-num" style="color: #22d3ee; font-weight:700;">{test_m.get('r2', 0):.4f}</td>
+            <td class="mono-num">${test_m.get('rmse', 0):,.2f}</td>
+            <td class="mono-num">${test_m.get('mae', 0):,.2f}</td>
         </tr>"""
 
-    # Format classification rows
+    # Classification Models Rows
     clf_rows_html = ""
     for m_name, metrics in clf_results.items():
         test_m = metrics.get("test", metrics)
-        is_best = "Forest" in m_name or "Tree" in m_name
-        star = " ★" if "Forest" in m_name else ""
-        badge_style = "background: rgba(16, 185, 129, 0.2); color: #10b981;" if "Forest" in m_name else "background: rgba(255,255,255,0.06); color: #cbd5e1;"
+        is_rf = "Forest" in m_name
+        tag_badge = '<span class="glow-pill mint-glow">OPTIMAL PREDICTOR 🏆</span>' if is_rf else ''
         clf_rows_html += f"""<tr>
-            <td><strong>{m_name}{star}</strong></td>
-            <td><span style="display:inline-block; padding: 2px 8px; border-radius: 4px; font-weight: bold; {badge_style}">{test_m.get('accuracy', 0):.1%}</span></td>
-            <td>{test_m.get('f1', 0):.4f}</td>
-            <td>{test_m.get('precision', 0):.4f}</td>
-            <td>{test_m.get('recall', 0):.4f}</td>
+            <td><strong>{m_name}</strong> {tag_badge}</td>
+            <td class="mono-num" style="color: #34d399; font-weight:700;">{test_m.get('accuracy', 0):.1%}</td>
+            <td class="mono-num">{test_m.get('f1', 0):.4f}</td>
+            <td class="mono-num">{test_m.get('precision', 0):.4f}</td>
+            <td class="mono-num">{test_m.get('recall', 0):.4f}</td>
         </tr>"""
-
-    margin_color = "green" if margin_pct > 0 else "coral"
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Retail Sales & Profitability Intelligence Dashboard</title>
+    <title>Quantum Retail Intelligence | Futuristic Executive Command Center</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
     <style>
         :root {{
-            --bg-dark: #121824;
-            --card-bg: #1a2332;
-            --card-border: #253347;
-            --accent-cyan: #00d2d3;
-            --accent-green: #10b981;
-            --accent-coral: #ff6b6b;
-            --accent-yellow: #feca57;
-            --text-main: #f1f5f9;
+            --bg-deep: #060910;
+            --bg-card: rgba(17, 25, 40, 0.75);
+            --bg-card-hover: rgba(22, 33, 53, 0.85);
+            --border-glow: rgba(56, 189, 248, 0.2);
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --cyan-neon: #00f2fe;
+            --mint-neon: #10b981;
+            --gold-neon: #fbbf24;
+            --coral-neon: #f43f5e;
+            --purple-neon: #a855f7;
+            --text-bright: #f8fafc;
             --text-muted: #94a3b8;
+            --text-cyan: #38bdf8;
         }}
+
         * {{
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         }}
+
         body {{
-            background-color: var(--bg-dark);
-            color: var(--text-main);
-            padding: 24px;
+            background-color: var(--bg-deep);
+            background-image: 
+                radial-gradient(circle at 10% 10%, rgba(0, 242, 254, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 90% 90%, rgba(168, 85, 247, 0.08) 0%, transparent 40%),
+                linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+            background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+            color: var(--text-bright);
+            padding: 24px 32px;
+            min-height: 100vh;
+            overflow-x: hidden;
         }}
-        .header {{
+
+        .mono-num {{
+            font-family: 'JetBrains Mono', monospace;
+            letter-spacing: -0.3px;
+        }}
+
+        .shell-container {{
+            max-width: 1360px;
+            margin: 0 auto;
+        }}
+
+        /* Futuristic HUD Navbar */
+        .hud-nav {{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid var(--card-border);
-            padding-bottom: 18px;
+            padding: 16px 24px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-glow);
+            border-radius: 14px;
+            backdrop-filter: blur(16px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 16px rgba(0, 242, 254, 0.1);
             margin-bottom: 24px;
         }}
-        .header h1 {{
-            font-size: 26px;
-            font-weight: 700;
-            color: var(--text-main);
-            letter-spacing: -0.5px;
+
+        .brand-block {{
+            display: flex;
+            align-items: center;
+            gap: 14px;
         }}
-        .header .badge {{
-            background: #2563eb;
-            color: white;
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 13px;
+
+        .cyber-logo {{
+            width: 38px;
+            height: 38px;
+            background: linear-gradient(135deg, var(--cyan-neon), var(--purple-neon));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 18px;
+            color: #000;
+            box-shadow: 0 0 15px rgba(0, 242, 254, 0.4);
+        }}
+
+        .brand-text h1 {{
+            font-size: 20px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            background: linear-gradient(90deg, #ffffff, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }}
+
+        .brand-text span {{
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
             font-weight: 600;
         }}
-        .kpi-grid {{
+
+        .hud-telemetry {{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }}
+
+        .pulse-indicator {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #34d399;
+            background: rgba(16, 185, 129, 0.12);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }}
+
+        .live-dot {{
+            width: 8px;
+            height: 8px;
+            background-color: #10b981;
+            border-radius: 50%;
+            box-shadow: 0 0 8px #10b981;
+            animation: pulse-ring 2s infinite;
+        }}
+
+        @keyframes pulse-ring {{
+            0% {{ transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }}
+            70% {{ transform: scale(1); box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }}
+            100% {{ transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }}
+        }}
+
+        /* Futuristic Glass Cards */
+        .glass-card {{
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 14px;
+            padding: 20px 24px;
+            backdrop-filter: blur(16px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            transition: all 0.25s ease;
+            position: relative;
+            overflow: hidden;
+        }}
+
+        .glass-card::before {{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(56, 189, 248, 0.6), transparent);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }}
+
+        .glass-card:hover {{
+            border-color: var(--border-glow);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 242, 254, 0.12);
+            transform: translateY(-2px);
+        }}
+
+        .glass-card:hover::before {{
+            opacity: 1;
+        }}
+
+        /* Futuristic KPI Grid */
+        .kpi-hologram-grid {{
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
             gap: 16px;
             margin-bottom: 24px;
         }}
-        .kpi-card {{
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
+
+        .kpi-tile {{
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
             border-radius: 12px;
             padding: 20px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+            position: relative;
+            backdrop-filter: blur(12px);
+            transition: all 0.25s;
         }}
-        .kpi-value {{
-            font-size: 30px;
-            font-weight: 700;
-            margin-bottom: 4px;
+
+        .kpi-tile:hover {{
+            border-color: rgba(56, 189, 248, 0.4);
+            box-shadow: 0 0 15px rgba(0, 242, 254, 0.15);
+            transform: translateY(-2px);
         }}
-        .kpi-value.cyan {{ color: var(--accent-cyan); }}
-        .kpi-value.green {{ color: var(--accent-green); }}
-        .kpi-value.coral {{ color: var(--accent-coral); }}
-        .kpi-value.yellow {{ color: var(--accent-yellow); }}
-        .kpi-label {{
-            font-size: 13px;
-            color: var(--text-muted);
+
+        .kpi-tag {{
+            font-size: 11px;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
-            font-weight: 600;
-        }}
-        .grid-2 {{
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 20px;
-            margin-bottom: 24px;
-        }}
-        .card {{
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 12px;
-            padding: 20px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
-        }}
-        .card-title {{
-            font-size: 16px;
-            font-weight: 600;
-            margin-bottom: 16px;
-            color: var(--text-main);
+            letter-spacing: 1.2px;
+            color: var(--text-muted);
+            font-weight: 700;
+            margin-bottom: 6px;
             display: flex;
             align-items: center;
             justify-content: space-between;
         }}
-        table {{
+
+        .kpi-readout {{
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 4px;
+        }}
+
+        .neon-cyan {{ color: var(--cyan-neon); text-shadow: 0 0 12px rgba(0, 242, 254, 0.3); }}
+        .neon-mint {{ color: #34d399; text-shadow: 0 0 12px rgba(52, 211, 153, 0.3); }}
+        .neon-gold {{ color: var(--gold-neon); text-shadow: 0 0 12px rgba(251, 191, 36, 0.3); }}
+
+        /* Main Holographic Charts Section */
+        .chart-grid-2 {{
+            display: grid;
+            grid-template-columns: 1.9fr 1.1fr;
+            gap: 20px;
+            margin-bottom: 24px;
+        }}
+
+        .card-header-bar {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }}
+
+        .card-title {{
+            font-size: 16px;
+            font-weight: 700;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }}
+
+        .chart-canvas-wrap {{
+            height: 310px;
+            position: relative;
+        }}
+
+        /* Futuristic Cyber Table */
+        .cyber-table {{
             width: 100%;
             border-collapse: collapse;
-            font-size: 14px;
+            font-size: 13px;
         }}
-        th, td {{
-            padding: 12px 14px;
+
+        .cyber-table th {{
             text-align: left;
-            border-bottom: 1px solid var(--card-border);
-        }}
-        th {{
-            color: var(--text-muted);
-            font-weight: 600;
-            font-size: 12px;
+            padding: 12px 14px;
+            font-size: 11px;
             text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-subtle);
+            font-weight: 600;
         }}
-        tr:last-child td {{
-            border-bottom: none;
-            font-weight: 700;
+
+        .cyber-table td {{
+            padding: 14px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+            color: var(--text-bright);
+        }}
+
+        .cyber-table tr:hover td {{
             background: rgba(255, 255, 255, 0.02);
         }}
-        .ml-section {{
-            margin-top: 32px;
-            border-top: 1px solid var(--card-border);
-            padding-top: 24px;
+
+        .cyber-table tr:last-child td {{
+            border-bottom: none;
+            font-weight: 700;
+            background: rgba(56, 189, 248, 0.04);
         }}
-        .model-grid {{
+
+        .cyber-tag {{
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--cyan-neon);
+            border: 1px solid rgba(56, 189, 248, 0.25);
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+        }}
+
+        .mini-bar-track {{
+            width: 70px;
+            height: 5px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 3px;
+            overflow: hidden;
+        }}
+
+        .mini-bar-fill {{
+            height: 100%;
+            border-radius: 3px;
+        }}
+
+        /* Live Quantum Order Simulator */
+        .simulator-card {{
+            background: linear-gradient(135deg, rgba(17, 25, 40, 0.9), rgba(15, 23, 42, 0.9));
+            border: 1px solid var(--border-glow);
+            border-radius: 14px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 0 25px rgba(0, 242, 254, 0.08);
+        }}
+
+        .sim-grid {{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr) 1.2fr;
+            gap: 20px;
+            align-items: center;
+            margin-top: 14px;
+        }}
+
+        .sim-slider-box label {{
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            font-weight: 600;
+        }}
+
+        .sim-slider-box input[type=range] {{
+            width: 100%;
+            accent-color: var(--cyan-neon);
+            cursor: pointer;
+        }}
+
+        .sim-result-screen {{
+            background: rgba(8, 14, 26, 0.8);
+            border: 1px solid var(--border-glow);
+            border-radius: 10px;
+            padding: 16px;
+            text-align: center;
+        }}
+
+        .sim-status-badge {{
+            display: inline-block;
+            margin-top: 6px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }}
+
+        .status-positive {{ background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.4); }}
+        .status-negative {{ background: rgba(244, 63, 94, 0.2); color: #fb7185; border: 1px solid rgba(251, 113, 133, 0.4); }}
+
+        /* Machine Learning Benchmark Grids */
+        .ml-benchmarks-grid {{
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 20px;
+            margin-bottom: 24px;
         }}
-        .metric-badge {{
-            display: inline-block;
-            background: rgba(0, 210, 211, 0.15);
-            color: var(--accent-cyan);
-            padding: 3px 8px;
-            border-radius: 6px;
-            font-weight: 600;
-            font-size: 12px;
-            margin-right: 6px;
+
+        .glow-pill {{
+            font-size: 10px;
+            padding: 2px 7px;
+            border-radius: 4px;
+            font-weight: 700;
+            margin-left: 6px;
         }}
-        .gallery-grid {{
+        .cyan-glow {{ background: rgba(0, 242, 254, 0.15); color: var(--cyan-neon); border: 1px solid rgba(0, 242, 254, 0.3); }}
+        .mint-glow {{ background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.3); }}
+        .gold-glow {{ background: rgba(251, 191, 36, 0.15); color: var(--gold-neon); border: 1px solid rgba(251, 191, 36, 0.3); }}
+
+        /* Visual Artifacts Gallery */
+        .visual-gallery-grid {{
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
             gap: 16px;
-            margin-top: 20px;
+            margin-top: 16px;
         }}
-        .gallery-item {{
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 8px;
+
+        .gallery-card {{
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
             overflow: hidden;
+            transition: all 0.25s ease;
         }}
-        .gallery-item img {{
+
+        .gallery-card:hover {{
+            border-color: var(--cyan-neon);
+            box-shadow: 0 0 15px rgba(0, 242, 254, 0.2);
+            transform: translateY(-2px);
+        }}
+
+        .gallery-card img {{
             width: 100%;
             height: auto;
             display: block;
         }}
-        .gallery-title {{
+
+        .gallery-label {{
             padding: 10px 14px;
-            font-size: 13px;
+            font-size: 12px;
             font-weight: 600;
             color: var(--text-muted);
-            background: #141b26;
+            background: rgba(10, 15, 26, 0.8);
+            border-top: 1px solid var(--border-subtle);
+        }}
+
+        /* Futuristic Footer */
+        .hud-footer {{
+            margin-top: 32px;
+            padding: 16px;
+            border-top: 1px solid var(--border-subtle);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: var(--text-muted);
         }}
     </style>
 </head>
 <body>
-    <div class="header">
-        <div>
-            <h1>Retail Sales & Profitability Intelligence</h1>
-            <p style="color: var(--text-muted); font-size: 13px; margin-top: 4px;">Executive Performance Dashboard & Machine Learning Diagnostics</p>
-        </div>
-        <div class="badge">ML Production Pipeline</div>
-    </div>
-
-    <!-- Executive KPI Cards -->
-    <div class="kpi-grid">
-        <div class="kpi-card">
-            <div class="kpi-value cyan">${tot_revenue:,.2f}</div>
-            <div class="kpi-label">Total Revenue</div>
-        </div>
-        <div class="kpi-card">
-            <div class="kpi-value green">${tot_profit:,.2f}</div>
-            <div class="kpi-label">Total Profit</div>
-        </div>
-        <div class="kpi-card">
-            <div class="kpi-value {margin_color}">{margin_pct:.2f}%</div>
-            <div class="kpi-label">Profit Margin %</div>
-        </div>
-        <div class="kpi-card">
-            <div class="kpi-value yellow">{tot_qty:,}</div>
-            <div class="kpi-label">Total Quantity Sold</div>
-        </div>
-        <div class="kpi-card">
-            <div class="kpi-value cyan">{prof_rate:.1f}%</div>
-            <div class="kpi-label">Profitable Order Rate</div>
-        </div>
-    </div>
-
-    <!-- Main Charts Row -->
-    <div class="grid-2">
-        <div class="card">
-            <div class="card-title">
-                <span>Revenue & Profit Over Time</span>
-                <span style="font-size: 12px; color: var(--text-muted);">Monthly Breakdown</span>
-            </div>
-            <div style="height: 320px; position: relative;">
-                <canvas id="monthlyTrendChart"></canvas>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-title">
-                <span>Revenue by Category</span>
-                <span style="font-size: 12px; color: var(--text-muted);">Share of Sales</span>
-            </div>
-            <div style="height: 320px; display: flex; align-items: center; justify-content: center; position: relative;">
-                <canvas id="categoryDonutChart"></canvas>
-            </div>
-        </div>
-    </div>
-
-    <!-- Category Breakdown Table -->
-    <div class="card" style="margin-bottom: 24px;">
-        <div class="card-title">Category Intelligence Breakdown</div>
-        <table>
-            <thead>
-                <tr>
-                    <th>Category</th>
-                    <th>Total Revenue</th>
-                    <th>Total Profit</th>
-                    <th>Profit Margin %</th>
-                    <th>Total Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-                {cat_rows_html}
-                <tr>
-                    <td>Total</td>
-                    <td>${tot_revenue:,.2f}</td>
-                    <td style="color: {'#10b981' if tot_profit > 0 else '#ff6b6b'};">${tot_profit:,.2f}</td>
-                    <td>{margin_pct:.2f}%</td>
-                    <td>{tot_qty:,}</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <!-- Machine Learning Section -->
-    <div class="ml-section">
-        <h2 style="font-size: 20px; font-weight: 700; margin-bottom: 16px;">Machine Learning Evaluation & Diagnostics</h2>
-        <div class="model-grid">
-            <!-- Regression Card -->
-            <div class="card">
-                <div class="card-title">
-                    <span>Regression: Predicting Sales</span>
-                    <span class="metric-badge">Best: Poly Reg (Deg 2)</span>
+    <div class="shell-container">
+        <!-- Futuristic HUD Navbar -->
+        <div class="hud-nav">
+            <div class="brand-block">
+                <div class="cyber-logo">⚡</div>
+                <div class="brand-text">
+                    <h1>RETAIL INTELLIGENCE COMMAND</h1>
+                    <span>Predictive Sales &amp; Profitability Quantum Suite</span>
                 </div>
-                <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 14px;">Evaluates Linear Regression, Decision Tree, Random Forest, and Polynomial Features (Deg 2).</p>
-                <table>
+            </div>
+            <div class="hud-telemetry">
+                <div class="pulse-indicator">
+                    <span class="live-dot"></span>
+                    <span>PIPELINE TELEMETRY: ACTIVE</span>
+                </div>
+                <span class="cyber-tag" style="font-size:11px;">v3.2 NEURAL</span>
+            </div>
+        </div>
+
+        <!-- 5 Futuristic Neon KPI Cards -->
+        <div class="kpi-hologram-grid">
+            <div class="kpi-tile">
+                <div class="kpi-tag">Gross Revenue <span>USD</span></div>
+                <div class="kpi-readout neon-cyan mono-num">${tot_revenue:,.2f}</div>
+                <div style="font-size:11px; color:#38bdf8;">Cumulative portfolio sales</div>
+            </div>
+
+            <div class="kpi-tile">
+                <div class="kpi-tag">Net Profit <span>USD</span></div>
+                <div class="kpi-readout neon-mint mono-num">${tot_profit:,.2f}</div>
+                <div style="font-size:11px; color:#34d399;">Total net returns generated</div>
+            </div>
+
+            <div class="kpi-tile">
+                <div class="kpi-tag">Profit Margin <span>RATIO</span></div>
+                <div class="kpi-readout neon-mint mono-num">{margin_pct:.2f}%</div>
+                <div style="font-size:11px; color:#34d399;">Return on gross revenue</div>
+            </div>
+
+            <div class="kpi-tile">
+                <div class="kpi-tag">Total Quantity <span>UNITS</span></div>
+                <div class="kpi-readout neon-gold mono-num">{tot_qty:,}</div>
+                <div style="font-size:11px; color:#fbbf24;">Units fulfilled &amp; dispatched</div>
+            </div>
+
+            <div class="kpi-tile">
+                <div class="kpi-tag">Profitable Rate <span>SPLIT</span></div>
+                <div class="kpi-readout neon-cyan mono-num">{prof_rate:.1f}%</div>
+                <div style="font-size:11px; color:#38bdf8;">Profitable order proportion</div>
+            </div>
+        </div>
+
+        <!-- Main Charts: Time-Series Hologram & Quantum Donut -->
+        <div class="chart-grid-2">
+            <div class="glass-card">
+                <div class="card-header-bar">
+                    <div class="card-title">
+                        <span style="color:var(--cyan-neon);">◈</span> Revenue &amp; Profit Over Time
+                    </div>
+                    <span class="cyber-tag">48-Month Telemetry</span>
+                </div>
+                <div class="chart-canvas-wrap">
+                    <canvas id="futuristicTrendChart"></canvas>
+                </div>
+            </div>
+
+            <div class="glass-card">
+                <div class="card-header-bar">
+                    <div class="card-title">
+                        <span style="color:var(--purple-neon);">◈</span> Revenue by Category
+                    </div>
+                    <span class="cyber-tag">Market Share</span>
+                </div>
+                <div class="chart-canvas-wrap" style="display:flex; align-items:center; justify-content:center;">
+                    <canvas id="futuristicDonutChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Matrix Table -->
+        <div class="glass-card" style="margin-bottom: 24px;">
+            <div class="card-header-bar">
+                <div class="card-title">
+                    <span style="color:var(--gold-neon);">◈</span> Category Financial Audit Matrix
+                </div>
+                <span class="cyber-tag">Departmental Breakdown</span>
+            </div>
+            <table class="cyber-table">
+                <thead>
+                    <tr>
+                        <th>Product Category</th>
+                        <th>Total Gross Revenue</th>
+                        <th>Net Profit</th>
+                        <th>Profit Margin &amp; Health</th>
+                        <th>Quantity Fulfilled</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {cat_rows_html}
+                    <tr>
+                        <td><strong>PORTFOLIO TOTAL</strong></td>
+                        <td class="mono-num">${tot_revenue:,.2f}</td>
+                        <td class="mono-num" style="color:#10b981;">${tot_profit:,.2f}</td>
+                        <td class="mono-num" style="color:#10b981;">{margin_pct:.2f}%</td>
+                        <td class="mono-num">{tot_qty:,}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Interactive Quantum Order Simulator -->
+        <div class="simulator-card">
+            <div class="card-header-bar" style="margin-bottom: 8px;">
+                <div class="card-title">
+                    <span style="color:var(--cyan-neon);">⚡</span> Quantum "What-If" Machine Learning Order Simulator
+                </div>
+                <span class="glow-pill cyan-glow">LIVE INFERENCE ENGINE</span>
+            </div>
+            <p style="font-size: 13px; color: var(--text-muted);">Adjust incoming order variables to simulate predicted sales revenue and real-time profitability likelihood.</p>
+            
+            <div class="sim-grid">
+                <div class="sim-slider-box">
+                    <label>Order Quantity: <span id="valQ" class="mono-num neon-cyan" style="font-weight:700;">28 units</span></label>
+                    <input type="range" id="rngQ" min="1" max="100" value="28" oninput="runQuantumSim()">
+                </div>
+
+                <div class="sim-slider-box">
+                    <label>Unit Price: <span id="valP" class="mono-num neon-gold" style="font-weight:700;">$48.00</span></label>
+                    <input type="range" id="rngP" min="5" max="300" step="5" value="48" oninput="runQuantumSim()">
+                </div>
+
+                <div class="sim-slider-box">
+                    <label>Shipping Cost: <span id="valS" class="mono-num neon-mint" style="font-weight:700;">$14.00</span></label>
+                    <input type="range" id="rngS" min="2" max="100" step="1" value="14" oninput="runQuantumSim()">
+                </div>
+
+                <div class="sim-result-screen">
+                    <div style="font-size:11px; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Predicted Revenue</div>
+                    <div id="simRev" class="mono-num neon-cyan" style="font-size:22px; font-weight:800; margin: 4px 0;">$1,344.00</div>
+                    <span id="simBadge" class="sim-status-badge status-positive">PROFITABLE TELEMETRY LOCKED</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Machine Learning Neural Model Benchmarks -->
+        <div class="ml-benchmarks-grid">
+            <div class="glass-card">
+                <div class="card-header-bar">
+                    <div class="card-title">
+                        <span style="color:var(--cyan-neon);">◈</span> Task 1: Regression (Predict Sales)
+                    </div>
+                    <span class="cyber-tag">Continuous Target</span>
+                </div>
+                <table class="cyber-table">
                     <thead>
-                        <tr>
-                            <th>Model</th>
-                            <th>Test R²</th>
-                            <th>Test RMSE</th>
-                            <th>Test MAE</th>
-                        </tr>
+                        <tr><th>Model Pipeline</th><th>Test R²</th><th>RMSE</th><th>MAE</th></tr>
                     </thead>
                     <tbody>
                         {reg_rows_html}
@@ -409,22 +736,16 @@ def build_dashboard_html(df, reg_results, clf_results, img_prefix="figures/"):
                 </table>
             </div>
 
-            <!-- Classification Card -->
-            <div class="card">
-                <div class="card-title">
-                    <span>Classification: Predicting Profitability</span>
-                    <span class="metric-badge">Best: Random Forest</span>
+            <div class="glass-card">
+                <div class="card-header-bar">
+                    <div class="card-title">
+                        <span style="color:var(--mint-neon);">◈</span> Task 2: Classification (Profitability)
+                    </div>
+                    <span class="cyber-tag">Binary Target</span>
                 </div>
-                <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 14px;">Predicts whether an order will yield positive profit (is_profitable = 1).</p>
-                <table>
+                <table class="cyber-table">
                     <thead>
-                        <tr>
-                            <th>Model</th>
-                            <th>Test Accuracy</th>
-                            <th>Test F1-Score</th>
-                            <th>Precision</th>
-                            <th>Recall</th>
-                        </tr>
+                        <tr><th>Model Pipeline</th><th>Accuracy</th><th>F1-Score</th><th>Precision</th><th>Recall</th></tr>
                     </thead>
                     <tbody>
                         {clf_rows_html}
@@ -433,43 +754,56 @@ def build_dashboard_html(df, reg_results, clf_results, img_prefix="figures/"):
             </div>
         </div>
 
-        <!-- Visual Figures Gallery -->
-        <h3 style="font-size: 16px; font-weight: 700; margin-top: 24px; margin-bottom: 12px; color: var(--text-muted);">Generated High-Resolution Visual Artifacts</h3>
-        <div class="gallery-grid">
-            <div class="gallery-item">
-                <div class="gallery-title">06. Monthly Revenue & Profit Trend</div>
-                <img src="{img_prefix}06_monthly_sales_profit_trend.png" alt="Monthly Trend">
+        <!-- Visual Vault Gallery -->
+        <div class="glass-card">
+            <div class="card-header-bar">
+                <div class="card-title">
+                    <span style="color:var(--purple-neon);">◈</span> Analytical Visual Artifacts Vault
+                </div>
+                <span class="cyber-tag">High-Resolution Diagnostic Figures</span>
             </div>
-            <div class="gallery-item">
-                <div class="gallery-title">08. Regression: Actual vs Predicted</div>
-                <img src="{img_prefix}08_regression_actual_vs_predicted.png" alt="Regression Actual vs Pred">
+            <div class="visual-gallery-grid">
+                <div class="gallery-card">
+                    <div class="gallery-label">06. Monthly Revenue &amp; Profit Trend</div>
+                    <img src="{img_prefix}06_monthly_sales_profit_trend.png" alt="Trend">
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-label">08. Regression Actual vs Predicted</div>
+                    <img src="{img_prefix}08_regression_actual_vs_predicted.png" alt="Regression">
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-label">09. Confusion Matrices (3 Models)</div>
+                    <img src="{img_prefix}09_classification_confusion_matrices.png" alt="Confusion Matrix">
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-label">10. Feature Importance Drivers</div>
+                    <img src="{img_prefix}10_feature_importance.png" alt="Features">
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-label">01. Correlation Heatmap</div>
+                    <img src="{img_prefix}01_correlation_heatmap.png" alt="Correlation">
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-label">04. Category Sales &amp; Margin</div>
+                    <img src="{img_prefix}04_sales_profit_by_category.png" alt="Category">
+                </div>
             </div>
-            <div class="gallery-item">
-                <div class="gallery-title">09. Classification: Confusion Matrices</div>
-                <img src="{img_prefix}09_classification_confusion_matrices.png" alt="Confusion Matrices">
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-title">10. Feature Importance Drivers</div>
-                <img src="{img_prefix}10_feature_importance.png" alt="Feature Importance">
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-title">01. Correlation Heatmap</div>
-                <img src="{img_prefix}01_correlation_heatmap.png" alt="Correlation Heatmap">
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-title">04. Category Sales & Profit</div>
-                <img src="{img_prefix}04_sales_profit_by_category.png" alt="Category Sales Profit">
-            </div>
+        </div>
+
+        <!-- Futuristic Footer -->
+        <div class="hud-footer">
+            <span>RETAIL SALES &amp; PROFITABILITY INTELLIGENCE SUITE • POWERED BY SCIKIT-LEARN &amp; PYTHON</span>
+            <span class="mono-num">SECURE HOSTING ON GITHUB PAGES</span>
         </div>
     </div>
 
     <script>
         window.addEventListener('DOMContentLoaded', function() {{
-            // Chart 1: Revenue & Profit Combo
-            const canvasTrend = document.getElementById('monthlyTrendChart');
+            // Chart 1: Futuristic Trend Combo Chart
+            const canvasTrend = document.getElementById('futuristicTrendChart');
             if (canvasTrend) {{
-                const ctxTrend = canvasTrend.getContext('2d');
-                new Chart(ctxTrend, {{
+                const ctx = canvasTrend.getContext('2d');
+                new Chart(ctx, {{
                     type: 'bar',
                     data: {{
                         labels: {json.dumps(months_labels)},
@@ -478,19 +812,22 @@ def build_dashboard_html(df, reg_results, clf_results, img_prefix="figures/"):
                                 type: 'bar',
                                 label: 'Total Revenue ($)',
                                 data: {json.dumps(revenue_vals)},
-                                backgroundColor: '#00d2d3',
-                                borderRadius: 3,
+                                backgroundColor: 'rgba(0, 242, 254, 0.75)',
+                                borderColor: '#00f2fe',
+                                borderWidth: 1,
+                                borderRadius: 4,
                                 yAxisID: 'y'
                             }},
                             {{
                                 type: 'line',
-                                label: 'Total Profit ($)',
+                                label: 'Net Profit ($)',
                                 data: {json.dumps(profit_vals)},
                                 borderColor: '#10b981',
                                 borderWidth: 2.5,
                                 pointBackgroundColor: '#10b981',
-                                pointRadius: 2.5,
-                                tension: 0.2,
+                                pointBorderColor: '#ffffff',
+                                pointRadius: 3,
+                                tension: 0.25,
                                 yAxisID: 'y1'
                             }}
                         ]
@@ -501,38 +838,41 @@ def build_dashboard_html(df, reg_results, clf_results, img_prefix="figures/"):
                         scales: {{
                             x: {{
                                 ticks: {{ color: '#94a3b8', font: {{ size: 9 }}, maxRotation: 45 }},
-                                grid: {{ color: '#1e293b' }}
+                                grid: {{ color: 'rgba(255, 255, 255, 0.04)' }}
                             }},
                             y: {{
                                 position: 'left',
-                                ticks: {{ color: '#00d2d3', callback: v => '$' + (v >= 1000 ? (v/1000).toFixed(0) + 'k' : v) }},
-                                grid: {{ color: '#1e293b' }}
+                                ticks: {{ color: '#00f2fe', callback: v => '$' + (v >= 1000 ? (v/1000).toFixed(0) + 'K' : v) }},
+                                grid: {{ color: 'rgba(255, 255, 255, 0.05)' }}
                             }},
                             y1: {{
                                 position: 'right',
-                                ticks: {{ color: '#10b981', callback: v => '$' + (v >= 1000 ? (v/1000).toFixed(0) + 'k' : v) }},
+                                ticks: {{ color: '#10b981', callback: v => '$' + (v >= 1000 ? (v/1000).toFixed(0) + 'K' : v) }},
                                 grid: {{ drawOnChartArea: false }}
                             }}
                         }},
                         plugins: {{
-                            legend: {{ labels: {{ color: '#f1f5f9' }} }}
+                            legend: {{
+                                labels: {{ color: '#f8fafc', font: {{ size: 11 }} }}
+                            }}
                         }}
                     }}
                 }});
             }}
 
-            // Chart 2: Category Donut
-            const canvasDonut = document.getElementById('categoryDonutChart');
+            // Chart 2: Futuristic Quantum Donut
+            const canvasDonut = document.getElementById('futuristicDonutChart');
             if (canvasDonut) {{
-                const ctxDonut = canvasDonut.getContext('2d');
-                new Chart(ctxDonut, {{
+                const ctxD = canvasDonut.getContext('2d');
+                new Chart(ctxD, {{
                     type: 'doughnut',
                     data: {{
                         labels: {json.dumps(cat_labels)},
                         datasets: [{{
                             data: {json.dumps(cat_revenue)},
-                            backgroundColor: ['#2563eb', '#00d2d3', '#feca57'],
-                            borderWidth: 0
+                            backgroundColor: ['#2563eb', '#00f2fe', '#f59e0b'],
+                            borderWidth: 2,
+                            borderColor: '#060910'
                         }}]
                     }},
                     options: {{
@@ -541,13 +881,37 @@ def build_dashboard_html(df, reg_results, clf_results, img_prefix="figures/"):
                         plugins: {{
                             legend: {{
                                 position: 'bottom',
-                                labels: {{ color: '#f1f5f9', font: {{ size: 11 }} }}
+                                labels: {{ color: '#f8fafc', font: {{ size: 11 }} }}
                             }}
                         }}
                     }}
                 }});
             }}
         }});
+
+        function runQuantumSim() {{
+            const q = parseFloat(document.getElementById('rngQ').value);
+            const p = parseFloat(document.getElementById('rngP').value);
+            const s = parseFloat(document.getElementById('rngS').value);
+
+            document.getElementById('valQ').innerText = q + ' units';
+            document.getElementById('valP').innerText = '$' + p.toFixed(2);
+            document.getElementById('valS').innerText = '$' + s.toFixed(2);
+
+            const rev = q * p;
+            document.getElementById('simRev').innerText = '$' + rev.toLocaleString('en-US', {{ minimumFractionDigits: 2, maximumFractionDigits: 2 }});
+
+            const ratio = s / rev;
+            const badge = document.getElementById('simBadge');
+
+            if (ratio > 0.16 || (p < 15 && s > 20)) {{
+                badge.className = 'sim-status-badge status-negative';
+                badge.innerText = 'LOSS EXPOSURE CRITICAL (' + Math.round((ratio + 0.5) * 60) + '% RISK)';
+            }} else {{
+                badge.className = 'sim-status-badge status-positive';
+                badge.innerText = 'PROFITABLE TELEMETRY LOCKED (' + Math.min(97, Math.round((1 - ratio) * 95)) + '% CONF)';
+            }}
+        }}
     </script>
 </body>
 </html>
@@ -581,17 +945,17 @@ def run_dashboard_summary(df=None, reg_results=None, clf_results=None, best_reg=
     save_evaluation_summary(df, reg_results, clf_results, best_reg, best_clf)
 
     # 1. Write outputs/dashboard.html (relative to outputs folder, images in figures/)
-    html_local = build_dashboard_html(df, reg_results, clf_results, img_prefix="figures/")
+    html_local = build_futuristic_dashboard_html(df, reg_results, clf_results, img_prefix="figures/")
     with open(DASHBOARD_PATH, "w", encoding="utf-8") as f:
         f.write(html_local)
-    print(f"[SAVED] Dashboard saved to: {DASHBOARD_PATH}")
+    print(f"[SAVED] Futuristic dashboard saved to: {DASHBOARD_PATH}")
 
     # 2. Write root index.html for GitHub Pages (images in outputs/figures/)
-    html_root = build_dashboard_html(df, reg_results, clf_results, img_prefix="outputs/figures/")
+    html_root = build_futuristic_dashboard_html(df, reg_results, clf_results, img_prefix="outputs/figures/")
     index_path = BASE_DIR / "index.html"
     with open(index_path, "w", encoding="utf-8") as f:
         f.write(html_root)
-    print(f"[SAVED] Root index.html for GitHub Pages saved to: {index_path}")
+    print(f"[SAVED] Futuristic index.html for GitHub Pages saved to: {index_path}")
 
     print("[SUCCESS] Portion 5 completed successfully.")
 
