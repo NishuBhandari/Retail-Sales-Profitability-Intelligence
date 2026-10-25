@@ -1,0 +1,671 @@
+Order Date,Order Priority,Order Quantity,Sales,Ship Mode,Profit,Unit Price,Shipping Cost,Customer Name,Customer Segment,Product Category,company,is_profitable,Order Year,Order Month,Order Quarter,Order DayOfWeek,Year_Month,Unit_Shipping_Cost,Shipping_Cost_Ratio
+2010-10-13,Low,6,261.54,Regular Air,-213.25,38.94,35.0,Muhammed MacIntyre,Small Business,Office Supplies,A,0,2010,10,4,2,2010-10,5.83,0.1338
+2012-10-01,High,49,10123.02,Delivery Truck,457.81,208.16,68.02,Barry French,Consumer,Office Supplies,A,1,2012,10,4,0,2012-10,1.39,0.0067
+2012-10-01,High,27,244.57,Regular Air,46.71,8.69,2.99,Barry French,Consumer,Office Supplies,A,1,2012,10,4,0,2012-10,0.11,0.0122
+2011-07-10,High,30,4965.7595,Regular Air,1198.97,195.99,3.99,Clay Rozendal,Corporate,Technology,A,1,2011,7,3,6,2011-07,0.13,0.0008
+2010-08-28,Not Specified,19,394.27,Regular Air,30.94,21.78,5.94,Carlos Soltero,Consumer,Office Supplies,A,1,2010,8,3,5,2010-08,0.31,0.0151
+2010-08-28,Not Specified,21,146.69,Regular Air,4.43,6.64,4.95,Carlos Soltero,Consumer,Furniture,A,1,2010,8,3,5,2010-08,0.24,0.0337
+2011-06-17,High,12,93.54,Regular Air,-54.04,7.3,7.72,Carl Jackson,Corporate,Office Supplies,A,0,2011,6,2,4,2011-06,0.64,0.0825
+2011-06-17,High,22,905.08,Regular Air,127.7,42.76,6.22,Carl Jackson,Corporate,Office Supplies,A,1,2011,6,2,4,2011-06,0.28,0.0069
+2011-03-24,High,21,2781.82,Express Air,-695.26,138.14,35.0,Monica Federle,Corporate,Office Supplies,A,0,2011,3,1,3,2011-03,1.67,0.0126
+2010-02-26,Low,44,228.41,Regular Air,-226.36,4.98,8.33,Dorothy Badders,Home Office,Office Supplies,A,0,2010,2,1,4,2010-02,0.19,0.0365
+2010-11-23,Medium,45,196.85,Regular Air,-166.85,4.28,6.18,Neola Schneider,Home Office,Office Supplies,A,0,2010,11,4,1,2010-11,0.14,0.0314
+2010-11-23,Medium,32,124.56,Regular Air,-14.33,3.95,2.0,Neola Schneider,Home Office,Office Supplies,A,0,2010,11,4,1,2010-11,0.06,0.0161
+2012-06-08,Not Specified,32,716.84,Regular Air,134.72,21.78,5.94,Carlos Daly,Home Office,Office Supplies,A,1,2012,6,2,4,2012-06,0.19,0.0083
+2012-06-08,Not Specified,31,1474.33,Regular Air,114.46,47.98,3.61,Carlos Daly,Home Office,Technology,A,1,2012,6,2,4,2012-06,0.12,0.0024
+2012-08-04,Not Specified,15,80.61,Regular Air,-4.72,5.28,2.99,Claudia Miner,Small Business,Office Supplies,A,0,2012,8,3,5,2012-08,0.2,0.0371
+2011-05-30,Medium,46,1815.49,Regular Air,782.91,39.89,3.04,Neola Schneider,Home Office,Furniture,A,1,2011,5,2,0,2011-05,0.07,0.0017
+2009-11-25,Not Specified,16,248.26,Regular Air,93.8,15.74,1.39,Allen Rosenblatt,Small Business,Office Supplies,A,1,2009,11,4,2,2009-11,0.09,0.0056
+2012-02-14,Critical,44,4462.23,Delivery Truck,440.72,100.98,26.22,Sylvia Foulston,Home Office,Furniture,A,1,2012,2,1,1,2012-02,0.6,0.0059
+2012-02-14,Critical,11,663.784,Regular Air,-481.04,71.37,69.0,Sylvia Foulston,Home Office,Furniture,A,0,2012,2,1,1,2012-02,6.27,0.1039
+2012-04-15,Low,15,834.904,Regular Air,-11.68,65.99,5.26,Jim Radford,Corporate,Technology,A,0,2012,4,2,6,2012-04,0.35,0.0063
+2012-04-15,Low,18,2480.9205,Regular Air,313.58,155.99,8.99,Jim Radford,Corporate,Technology,A,1,2012,4,2,6,2012-04,0.5,0.0036
+2010-03-12,Not Specified,13,59.03,Express Air,26.92,3.69,0.5,Carlos Soltero,Consumer,Office Supplies,A,1,2010,3,1,4,2010-03,0.04,0.0085
+2010-03-12,Not Specified,21,97.48,Regular Air,-5.77,4.71,0.7,Carlos Soltero,Consumer,Office Supplies,A,0,2010,3,1,4,2010-03,0.03,0.0072
+2011-03-09,Low,33,511.83,Regular Air,-172.88,15.99,13.18,Carl Ludwig,Corporate,Office Supplies,A,0,2011,3,1,2,2011-03,0.4,0.0258
+2011-03-09,Low,38,184.99,Regular Air,-144.55,4.89,4.93,Carl Ludwig,Corporate,Technology,A,0,2011,3,1,2,2011-03,0.13,0.0267
+2012-08-04,High,30,80.9,Regular Air,5.76,2.88,0.7,Don Miller,Home Office,Office Supplies,A,1,2012,8,3,5,2012-08,0.02,0.0087
+2011-05-06,High,23,67.24,Regular Air,4.9,2.84,0.93,Annie Cyprus,Home Office,Office Supplies,A,1,2011,5,2,4,2011-05,0.04,0.0138
+2010-12-23,High,25,12028.23,Delivery Truck,-547.61,449.99,49.0,Carl Ludwig,Corporate,Technology,A,0,2010,12,4,3,2010-12,1.96,0.0041
+2010-11-08,Low,28,370.48,Regular Air,-5.45,13.48,4.51,Carlos Soltero,Consumer,Office Supplies,A,0,2010,11,4,0,2010-11,0.16,0.0122
+2012-10-21,Not Specified,49,278.0,Regular Air,41.67,6.08,1.17,Grant Carroll,Small Business,Office Supplies,A,1,2012,10,4,6,2012-10,0.02,0.0042
+2011-01-01,Not Specified,10,66.54,Regular Air,-46.03,5.98,4.38,Don Miller,Home Office,Technology,A,0,2011,1,1,5,2011-01,0.44,0.0658
+2011-01-01,Not Specified,21,845.32,Regular Air,33.67,40.99,19.99,Don Miller,Home Office,Office Supplies,A,1,2011,1,1,5,2011-01,0.95,0.0236
+2011-10-10,High,39,282.07,Regular Air,140.01,7.31,0.49,Alan Barnes,Corporate,Office Supplies,A,1,2011,10,4,0,2011-10,0.01,0.0017
+2011-10-10,High,24,426.037,Regular Air,-78.96,20.99,2.5,Alan Barnes,Corporate,Technology,A,0,2011,10,4,0,2011-10,0.1,0.0059
+2010-09-23,Low,27,1078.49,Regular Air,252.66,40.96,1.99,Jack Garza,Corporate,Technology,A,1,2010,9,3,3,2010-09,0.07,0.0018
+2011-07-19,Critical,39,3554.46,Delivery Truck,-1766.01,95.95,74.35,Julia West,Corporate,Furniture,A,0,2011,7,3,1,2011-07,1.91,0.0209
+2009-10-09,High,47,191.67,Regular Air,-236.27,3.89,7.01,Eugene Barchas,Corporate,Office Supplies,A,0,2009,10,4,4,2009-10,0.15,0.0366
+2009-10-09,High,49,5586.33,Delivery Truck,80.44,120.98,30.0,Eugene Barchas,Corporate,Furniture,A,1,2009,10,4,4,2009-10,0.61,0.0054
+2009-10-09,High,18,507.64,Regular Air,118.94,30.98,5.76,Eugene Barchas,Corporate,Office Supplies,A,1,2009,10,4,4,2009-10,0.32,0.0113
+2010-12-09,Not Specified,30,14223.82,Delivery Truck,3424.22,500.98,26.0,Edward Hooks,Consumer,Furniture,A,1,2010,12,4,3,2010-12,0.87,0.0018
+2012-10-08,Critical,5,42.66,Regular Air,-11.83,7.84,4.71,Brad Eason,Small Business,Office Supplies,A,0,2012,10,4,0,2012-10,0.94,0.1104
+2012-05-02,High,21,427.32,Regular Air,52.35,18.97,9.03,Unknown Customer,Small Business,Office Supplies,A,1,2012,5,2,2,2012-05,0.43,0.0211
+2010-03-08,Medium,8,820.284,Regular Air,-180.2,115.99,2.5,Dorothy Wardle,Corporate,Technology,A,0,2010,3,1,0,2010-03,0.31,0.003
+2011-05-28,Not Specified,5,14.76,Regular Air,1.32,2.88,0.5,Aaron Bergman,Corporate,Office Supplies,A,1,2011,5,2,5,2011-05,0.1,0.0339
+2010-09-19,Medium,9,89.55,Regular Air,-375.64,4.48,49.0,Jim Radford,Corporate,Office Supplies,A,0,2010,9,3,6,2010-09,5.44,0.5472
+2011-08-31,High,11,1210.0515,Regular Air,-104.25,125.99,7.69,Annie Cyprus,Home Office,Technology,A,0,2011,8,3,2,2011-08,0.7,0.0064
+2011-08-31,High,50,187.83,Regular Air,85.96,3.75,0.5,Annie Cyprus,Home Office,Office Supplies,A,1,2011,8,3,2,2011-08,0.01,0.0027
+2011-08-31,High,3,49.59,Express Air,-8.38,12.28,6.47,Annie Cyprus,Home Office,Office Supplies,A,0,2011,8,3,2,2011-08,2.16,0.1305
+2011-08-31,High,30,4253.009,Regular Air,1115.69,155.99,8.99,Annie Cyprus,Home Office,Technology,A,1,2011,8,3,2,2011-08,0.3,0.0021
+2011-07-08,Not Specified,7,59.38,Regular Air,-3.05,8.69,2.99,Annie Cyprus,Home Office,Office Supplies,A,0,2011,7,3,4,2011-07,0.43,0.0504
+2009-01-30,Critical,42,1285.37,Regular Air,514.07,31.78,1.99,Clay Rozendal,Corporate,Technology,A,1,2009,1,1,4,2009-01,0.05,0.0015
+2012-01-08,Low,11,48.91,Regular Air,-7.04,3.98,2.97,Don Jones,Corporate,Office Supplies,A,0,2012,1,1,6,2012-01,0.27,0.0607
+2010-11-07,Critical,22,129.62,Regular Air,4.41,5.88,3.04,Beth Thompson,Corporate,Office Supplies,A,1,2010,11,4,6,2010-11,0.14,0.0235
+2010-04-29,Not Specified,12,118.97,Regular Air,-0.06,9.65,6.22,Frank Price,Corporate,Furniture,A,0,2010,4,2,3,2010-04,0.52,0.0523
+2011-12-31,Not Specified,8,61.8715,Regular Air,-50.33,7.99,5.03,Michelle Lonsdale,Home Office,Technology,A,0,2011,12,4,5,2011-12,0.63,0.0813
+2009-08-12,High,7,384.33,Regular Air,87.68,58.1,1.49,Ann Chong,Corporate,Office Supplies,A,1,2009,8,3,2,2009-08,0.21,0.0039
+2009-08-12,High,3,239.03,Regular Air,-68.22,80.48,4.5,Ann Chong,Corporate,Office Supplies,A,0,2009,8,3,2,2009-08,1.5,0.0188
+2011-11-12,Low,44,3922.42,Regular Air,-354.9,92.23,39.61,Joy Bell,Home Office,Furniture,A,0,2011,11,4,5,2011-11,0.9,0.0101
+2011-11-12,Low,25,1733.3625,Regular Air,-267.01,85.99,0.99,Joy Bell,Home Office,Technology,A,0,2011,11,4,5,2011-11,0.04,0.0006
+2012-01-20,High,19,208.28,Regular Air,3.63,11.48,5.43,Skye Norling,Home Office,Office Supplies,A,1,2012,1,1,4,2012-01,0.29,0.0261
+2009-03-20,Medium,6,9620.82,Regular Air,-1759.58,1637.53,24.49,Barry Weirich,Corporate,Office Supplies,A,0,2009,3,1,4,2009-03,4.08,0.0025
+2012-07-21,Low,40,255.48,Regular Air,-116.79,6.48,6.65,Grant Carroll,Corporate,Office Supplies,A,0,2012,7,3,5,2012-07,0.17,0.026
+2012-07-21,Low,18,130.32,Express Air,-67.28,6.48,7.86,Grant Carroll,Corporate,Office Supplies,A,0,2012,7,3,5,2012-07,0.44,0.0603
+2012-06-12,Critical,11,312.36,Express Air,-19.33,28.15,8.99,Adrian Hane,Corporate,Office Supplies,A,0,2012,6,2,1,2012-06,0.82,0.0288
+2009-01-15,Low,41,217.0,Regular Air,-61.21,4.98,4.75,Skye Norling,Home Office,Office Supplies,A,0,2009,1,1,3,2009-01,0.12,0.0219
+2009-01-15,Low,47,296.13,Regular Air,119.09,6.35,1.02,Skye Norling,Home Office,Office Supplies,A,1,2009,1,1,3,2009-01,0.02,0.0034
+2010-06-04,Low,40,436.17,Express Air,-141.27,10.9,7.46,Andrew Gjertsen,Consumer,Office Supplies,A,0,2010,6,2,4,2010-06,0.19,0.0171
+2010-02-18,Not Specified,18,136.29,Regular Air,-77.28,7.3,7.72,Ralph Knight,Consumer,Office Supplies,A,0,2010,2,1,3,2010-02,0.43,0.0566
+2011-11-16,Not Specified,32,1311.25,Express Air,407.44,39.48,1.99,Dorothy Wardle,Corporate,Technology,A,1,2011,11,4,2,2011-11,0.06,0.0015
+2011-11-16,Not Specified,5,544.41,Delivery Truck,-338.27,100.98,57.38,Dorothy Wardle,Corporate,Furniture,A,0,2011,11,4,2,2011-11,11.48,0.1054
+2011-11-16,Not Specified,41,844.09,Regular Air,52.56,19.98,10.49,Dorothy Wardle,Corporate,Furniture,A,1,2011,11,4,2,2011-11,0.26,0.0124
+2011-08-07,Low,22,6396.2,Regular Air,1902.24,276.2,24.49,Grant Carroll,Corporate,Furniture,A,1,2011,8,3,6,2011-08,1.11,0.0038
+2010-06-08,Medium,50,751.77,Regular Air,353.2,15.67,1.39,Barry Weirich,Corporate,Office Supplies,A,1,2010,6,2,1,2010-06,0.03,0.0018
+2009-10-17,Medium,37,1003.06,Regular Air,271.78,25.98,5.37,Beth Paige,Consumer,Office Supplies,A,1,2009,10,4,5,2009-10,0.15,0.0054
+2011-08-28,High,4,1266.72,Delivery Truck,-268.36,300.98,64.73,Sylvia Foulston,Corporate,Furniture,A,0,2011,8,3,6,2011-08,16.18,0.0511
+2011-09-29,Critical,19,368.04,Express Air,70.39,19.98,5.97,Nicole Hansen,Small Business,Office Supplies,A,1,2011,9,3,3,2011-09,0.31,0.0162
+2011-09-29,Critical,24,152.6,Regular Air,-86.62,6.48,7.03,Nicole Hansen,Small Business,Office Supplies,A,0,2011,9,3,3,2011-09,0.29,0.0461
+2012-05-04,Low,40,3338.98,Regular Air,-846.73,80.98,35.0,Nicole Hansen,Small Business,Office Supplies,A,0,2012,5,2,4,2012-05,0.88,0.0105
+2011-05-17,High,5,24.16,Express Air,8.05,1.88,1.49,Beth Paige,Consumer,Office Supplies,A,1,2011,5,2,1,2011-05,0.3,0.0617
+2011-05-17,High,41,270.84,Express Air,-78.02,6.48,5.86,Beth Paige,Consumer,Office Supplies,A,0,2011,5,2,1,2011-05,0.14,0.0216
+2011-05-17,High,35,3389.93,Express Air,737.94,102.3,21.26,Beth Paige,Consumer,Furniture,A,1,2011,5,2,1,2011-05,0.61,0.0063
+2011-05-17,High,42,266.36,Regular Air,-191.28,6.48,8.19,Beth Paige,Consumer,Office Supplies,A,0,2011,5,2,1,2011-05,0.19,0.0307
+2011-05-17,High,46,89.41,Regular Air,-21.49,1.89,0.76,Beth Paige,Consumer,Office Supplies,A,0,2011,5,2,1,2011-05,0.02,0.0085
+2009-11-17,Medium,47,2799.7,Regular Air,884.08,62.05,3.99,Sylvia Foulston,Corporate,Office Supplies,A,1,2009,11,4,1,2009-11,0.08,0.0014
+2011-10-10,Not Specified,7,2039.56,Express Air,-329.49,279.48,35.0,Bryan Davis,Corporate,Office Supplies,A,0,2011,10,4,0,2011-10,5.0,0.0172
+2012-10-07,Not Specified,36,12175.82,Delivery Truck,2825.15,320.98,58.95,Joy Bell,Home Office,Furniture,A,1,2012,10,4,6,2012-10,1.64,0.0048
+2012-10-07,Not Specified,5,101.21,Express Air,2.13,18.97,5.21,Joy Bell,Home Office,Office Supplies,A,1,2012,10,4,6,2012-10,1.04,0.0515
+2012-10-07,Not Specified,32,1585.64,Regular Air,707.15,48.91,5.81,Joy Bell,Home Office,Office Supplies,A,1,2012,10,4,6,2012-10,0.18,0.0037
+2011-08-13,Medium,44,176.26,Regular Air,75.13,4.13,0.5,Alan Barnes,Corporate,Office Supplies,A,1,2011,8,3,5,2011-08,0.01,0.0028
+2011-08-16,High,32,4655.07,Delivery Truck,-270.63,140.98,53.48,Grant Carroll,Corporate,Furniture,A,0,2011,8,3,1,2011-08,1.67,0.0115
+2011-08-16,High,44,10087.6,Regular Air,3387.35,218.08,18.06,Grant Carroll,Corporate,Furniture,A,1,2011,8,3,1,2011-08,0.41,0.0018
+2011-08-16,High,34,1608.08,Express Air,-82.16,50.98,6.5,Grant Carroll,Corporate,Technology,A,0,2011,8,3,1,2011-08,0.19,0.004
+2009-03-04,Low,1,12.18,Regular Air,-3.88,10.14,2.27,Delfina Latchford,Small Business,Office Supplies,A,0,2009,3,1,2,2009-03,2.27,0.1864
+2009-08-18,Critical,50,820.52,Regular Air,-191.22,15.99,13.18,Don Jones,Corporate,Office Supplies,A,0,2009,8,3,1,2009-08,0.26,0.0161
+2010-11-16,Not Specified,29,6250.936,Delivery Truck,31.21,262.11,62.74,Doug Bickford,Corporate,Furniture,A,1,2010,11,4,1,2010-11,2.16,0.01
+2011-05-27,Low,25,854.88,Regular Air,-44.14,33.98,19.99,Doug Bickford,Corporate,Furniture,A,0,2011,5,2,4,2011-05,0.8,0.0234
+2011-05-27,Low,46,80.27,Regular Air,-0.79,1.76,0.7,Doug Bickford,Corporate,Office Supplies,A,0,2011,5,2,4,2011-05,0.02,0.0087
+2010-08-23,Not Specified,15,308.54,Express Air,76.42,19.84,4.1,Jamie Kunitz,Corporate,Office Supplies,A,1,2010,8,3,0,2010-08,0.27,0.0133
+2011-08-19,Not Specified,20,400.57,Regular Air,93.36,19.98,5.77,Anthony Johnson,Small Business,Office Supplies,A,1,2011,8,3,4,2011-08,0.29,0.0144
+2012-01-03,Medium,14,1170.025,Regular Air,4.22,95.99,8.99,Ralph Knight,Consumer,Technology,A,1,2012,1,1,1,2012-01,0.64,0.0077
+2012-11-29,High,48,5188.86,Regular Air,395.12,111.03,8.64,Allen Rosenblatt,Small Business,Office Supplies,A,1,2012,11,4,3,2012-11,0.18,0.0017
+2012-03-17,Medium,8,339.81,Regular Air,79.59,43.41,2.99,Barry Weirich,Corporate,Office Supplies,A,1,2012,3,1,5,2012-03,0.37,0.0088
+2010-04-12,Low,15,1519.9,Regular Air,399.37,105.34,24.49,Doug Bickford,Corporate,Furniture,A,1,2010,4,2,0,2010-04,1.63,0.0161
+2010-08-24,High,30,102.24,Regular Air,37.79,3.69,0.5,Carl Jackson,Home Office,Office Supplies,A,1,2010,8,3,1,2010-08,0.02,0.0049
+2011-07-04,High,6,965.69,Delivery Truck,-144.2,146.34,43.75,Brendan Dodson,Corporate,Furniture,A,0,2011,7,3,0,2011-07,7.29,0.0453
+2010-11-10,Critical,25,397.84,Regular Air,-14.75,15.22,9.73,Edward Hooks,Consumer,Office Supplies,A,0,2010,11,4,2,2010-11,0.39,0.0245
+2010-06-24,Critical,4,73.07,Regular Air,-41.01,15.7,11.25,Jamie Kunitz,Corporate,Office Supplies,A,0,2010,6,2,3,2010-06,2.81,0.154
+2010-06-24,Critical,26,4679.1,Delivery Truck,111.52,179.29,29.21,Jamie Kunitz,Corporate,Furniture,A,1,2010,6,2,3,2010-06,1.12,0.0062
+2012-09-19,Medium,46,8009.5925,Regular Air,2332.4,200.99,8.08,Michelle Lonsdale,Home Office,Technology,A,1,2012,9,3,2,2012-09,0.18,0.001
+2012-09-19,Medium,23,4689.66,Regular Air,2176.19,194.3,11.54,Michelle Lonsdale,Home Office,Furniture,A,1,2012,9,3,2,2012-09,0.5,0.0025
+2011-12-24,Low,25,3019.41,Regular Air,1269.05,120.97,7.11,Brendan Dodson,Corporate,Technology,A,1,2011,12,4,5,2011-12,0.28,0.0024
+2012-03-23,Medium,5,36.86,Regular Air,-32.82,5.81,8.49,Hunter Glantz,Corporate,Office Supplies,A,0,2012,3,1,4,2012-03,1.7,0.2303
+2011-10-15,Critical,12,22079.47,Regular Air,5322.14,1938.02,13.99,Sylvia Foulston,Corporate,Technology,A,1,2011,10,4,5,2011-10,1.17,0.0006
+2010-08-07,Critical,24,5407.31,Delivery Truck,1068.48,226.67,28.16,Eugene Barchas,Home Office,Furniture,A,1,2010,8,3,5,2010-08,1.17,0.0052
+2009-03-03,Low,34,74.3,Regular Air,-129.01,2.08,5.33,Jim Radford,Corporate,Furniture,A,0,2009,3,1,1,2009-03,0.16,0.0717
+2010-02-09,Low,44,21506.77,Regular Air,1260.51,499.99,24.49,Carlos Soltero,Small Business,Technology,A,1,2010,2,1,1,2010-02,0.56,0.0011
+2010-02-09,Low,28,669.02,Delivery Truck,-1274.02,20.98,53.03,Carlos Soltero,Small Business,Office Supplies,A,0,2010,2,1,1,2010-02,1.89,0.0793
+2009-01-17,Critical,40,1143.49,Regular Air,-193.44,30.53,19.99,Carlos Soltero,Small Business,Office Supplies,A,0,2009,1,1,5,2009-01,0.5,0.0175
+2009-01-17,Critical,46,78.08,Regular Air,-43.1,1.68,1.57,Carlos Soltero,Small Business,Office Supplies,A,0,2009,1,1,5,2009-01,0.03,0.0201
+2010-08-30,Critical,19,5297.47,Delivery Truck,-158.93,270.98,50.0,Jim Radford,Corporate,Furniture,A,0,2010,8,3,0,2010-08,2.63,0.0094
+2010-08-30,Critical,20,95.3,Regular Air,29.68,4.48,1.22,Jim Radford,Corporate,Office Supplies,A,1,2010,8,3,0,2010-08,0.06,0.0128
+2009-09-11,High,40,460.68,Regular Air,-116.76,10.9,7.46,Grant Carroll,Small Business,Office Supplies,A,0,2009,9,3,4,2009-09,0.19,0.0162
+2009-09-11,High,49,318.7585,Regular Air,-160.95,7.99,5.03,Grant Carroll,Small Business,Technology,A,0,2009,9,3,4,2009-09,0.1,0.0158
+2009-07-16,Not Specified,47,1020.61,Regular Air,-209.61,21.66,13.99,Skye Norling,Home Office,Office Supplies,A,0,2009,7,3,3,2009-07,0.3,0.0137
+2012-11-15,Low,44,268.34,Regular Air,-240.83,6.48,8.88,Doug Bickford,Corporate,Office Supplies,A,0,2012,11,4,3,2012-11,0.2,0.0331
+2011-09-10,Low,6,209.0,Regular Air,12.32,35.44,7.5,Grant Carroll,Small Business,Office Supplies,A,1,2011,9,3,5,2011-09,1.25,0.0359
+2011-04-10,Not Specified,30,501.32,Regular Air,-119.08,15.99,13.18,Muhammed MacIntyre,Small Business,Office Supplies,A,0,2011,4,2,6,2011-04,0.44,0.0263
+2011-04-10,Not Specified,0,275.16,Express Air,3.89,11.34,5.01,Muhammed MacIntyre,Small Business,Office Supplies,A,1,2011,4,2,6,2011-04,5.01,0.0182
+2011-04-10,Not Specified,37,1302.99,Regular Air,545.49,35.44,5.09,Muhammed MacIntyre,Small Business,Office Supplies,A,1,2011,4,2,6,2011-04,0.14,0.0039
+2011-10-09,High,1,40.1,Regular Air,-16.07,30.98,11.63,Doug Bickford,Small Business,Office Supplies,A,0,2011,10,4,6,2011-10,11.63,0.29
+2011-10-09,High,42,1414.05,Regular Air,161.48,34.54,14.72,Doug Bickford,Small Business,Office Supplies,A,1,2011,10,4,6,2011-10,0.35,0.0104
+2012-10-23,Critical,34,5350.61,Delivery Truck,-1059.2,170.98,60.49,Beth Thompson,Corporate,Furniture,A,0,2012,10,4,1,2012-10,1.78,0.0113
+2012-01-08,Low,15,310.87,Regular Air,-21.48,20.95,4.0,Ralph Knight,Consumer,Technology,A,0,2012,1,1,6,2012-01,0.27,0.0129
+2010-01-25,Not Specified,48,9062.73,Regular Air,3122.78,207.48,0.99,Carl Jackson,Home Office,Office Supplies,A,1,2010,1,1,0,2010-01,0.02,0.0001
+2010-01-25,Not Specified,27,1584.1,Delivery Truck,-478.22,58.14,36.61,Carl Jackson,Home Office,Furniture,A,0,2010,1,1,0,2010-01,1.36,0.0231
+2011-01-27,Not Specified,42,283.58,Regular Air,-14.23,6.64,4.95,Dorothy Badders,Home Office,Furniture,A,0,2011,1,1,3,2011-01,0.12,0.0175
+2011-01-27,Not Specified,39,5403.37,Delivery Truck,948.79,145.45,17.85,Dorothy Badders,Home Office,Technology,A,1,2011,1,1,3,2011-01,0.46,0.0033
+2011-01-27,Not Specified,35,82.15,Regular Air,-6.33,2.21,1.12,Dorothy Badders,Home Office,Office Supplies,A,0,2011,1,1,3,2011-01,0.03,0.0136
+2009-08-27,High,50,2066.16,Regular Air,372.36,40.99,17.48,Delfina Latchford,Small Business,Office Supplies,A,1,2009,8,3,3,2009-08,0.35,0.0085
+2011-03-17,Critical,18,4605.36,Delivery Truck,678.26,243.98,43.32,Julia West,Corporate,Furniture,A,1,2011,3,1,3,2011-03,2.41,0.0094
+2011-03-17,Critical,42,1753.51,Regular Air,155.72,39.98,9.2,Julia West,Corporate,Furniture,A,1,2011,3,1,3,2011-03,0.22,0.0052
+2012-06-06,Critical,31,426.34,Regular Air,73.53,12.58,5.16,Brad Eason,Small Business,Furniture,A,1,2012,6,2,2,2012-06,0.17,0.0121
+2011-04-11,High,36,1837.44,Delivery Truck,-1414.41,48.58,54.11,Thomas Seio,Home Office,Furniture,A,0,2011,4,2,0,2011-04,1.5,0.0294
+2011-04-11,High,36,3722.29,Express Air,950.68,105.98,13.99,Thomas Seio,Home Office,Furniture,A,1,2011,4,2,0,2011-04,0.39,0.0038
+2011-04-11,High,4,28.05,Regular Air,-5.41,7.04,2.17,Thomas Seio,Home Office,Office Supplies,A,0,2011,4,2,0,2011-04,0.54,0.0774
+2012-11-06,Low,32,311.44,Regular Air,74.07,9.78,1.99,Monica Federle,Corporate,Technology,A,1,2012,11,4,1,2012-11,0.06,0.0064
+2012-11-06,Low,17,215.65,Express Air,77.38,12.22,2.85,Monica Federle,Corporate,Furniture,A,1,2012,11,4,1,2012-11,0.17,0.0132
+2012-05-16,High,3,121.12,Regular Air,-118.82,43.98,1.99,Michelle Lonsdale,Home Office,Technology,A,0,2012,5,2,2,2012-05,0.66,0.0164
+2012-04-09,Not Specified,8,300.2,Regular Air,6.41,34.76,8.22,Frank Price,Corporate,Office Supplies,A,1,2012,4,2,0,2012-04,1.03,0.0274
+2012-04-09,Not Specified,29,1364.8025,Regular Air,-183.68,55.99,5.0,Frank Price,Corporate,Technology,A,0,2012,4,2,0,2012-04,0.17,0.0037
+2012-08-05,Medium,0,128.21,Regular Air,-55.13,6.48,6.57,Bryan Davis,Corporate,Office Supplies,A,0,2012,8,3,6,2012-08,6.57,0.0512
+2009-07-22,Not Specified,9,252.79,Regular Air,58.23,30.56,2.99,Don Jones,Corporate,Office Supplies,A,1,2009,7,3,2,2009-07,0.33,0.0118
+2010-05-09,Not Specified,10,50.97,Regular Air,4.45,5.16,0.73,Carlos Soltero,Small Business,Office Supplies,A,1,2010,5,2,6,2010-05,0.07,0.0143
+2010-05-09,Not Specified,1,4.99,Regular Air,-3.06,3.68,1.32,Carlos Soltero,Small Business,Office Supplies,A,0,2010,5,2,6,2010-05,1.32,0.2645
+2009-02-18,Not Specified,-10,10554.63,Delivery Truck,1240.25,355.98,58.92,Nicole Hansen,Corporate,Furniture,A,1,2009,2,1,2,2009-02,-5.89,0.0056
+2009-02-18,Not Specified,8,1749.64,Delivery Truck,-533.23,218.75,69.64,Nicole Hansen,Corporate,Furniture,A,0,2009,2,1,2,2009-02,8.7,0.0398
+2012-06-27,High,47,1943.72,Regular Air,-1003.58,41.47,34.2,Beth Thompson,Corporate,Furniture,A,0,2012,6,2,2,2012-06,0.73,0.0176
+2012-06-27,High,6,18.37,Regular Air,-4.06,2.78,1.2,Beth Thompson,Corporate,Office Supplies,A,0,2012,6,2,2,2012-06,0.2,0.0653
+2012-06-27,High,49,6175.777,Express Air,1881.58,155.99,3.9,Beth Thompson,Corporate,Technology,A,1,2012,6,2,2,2012-06,0.08,0.0006
+2010-09-30,Medium,6,157.97,Regular Air,-42.38,22.84,16.87,Nicole Hansen,Small Business,Office Supplies,A,0,2010,9,3,3,2010-09,2.81,0.1068
+2010-04-15,Critical,25,144.84,Regular Air,-120.99,5.78,8.09,Carlos Soltero,Consumer,Office Supplies,A,0,2010,4,2,3,2010-04,0.32,0.0559
+2010-04-15,Critical,20,127.16,Regular Air,12.88,6.7,1.56,Carlos Soltero,Consumer,Office Supplies,A,1,2010,4,2,3,2010-04,0.08,0.0123
+2011-09-14,Not Specified,4,5472.12,Delivery Truck,-2816.34,1360.14,14.7,Dorothy Badders,Home Office,Technology,A,0,2011,9,3,2,2011-09,3.68,0.0027
+2010-09-21,High,7,1810.67,Delivery Truck,-541.87,270.98,50.0,Muhammed MacIntyre,Small Business,Furniture,A,0,2010,9,3,1,2010-09,7.14,0.0276
+2010-08-17,Not Specified,31,633.56,Regular Air,-158.87,20.97,6.5,Muhammed MacIntyre,Small Business,Technology,A,0,2010,8,3,1,2010-08,0.21,0.0103
+2009-09-16,Low,27,644.4,Regular Air,-97.28,22.84,16.87,Don Miller,Home Office,Office Supplies,A,0,2009,9,3,2,2009-09,0.62,0.0262
+2009-06-22,High,7,1211.98,Delivery Truck,-80.83,180.98,26.2,Sylvia Foulston,Corporate,Furniture,A,0,2009,6,2,0,2009-06,3.74,0.0216
+2012-08-28,Not Specified,27,3316.08,Delivery Truck,-514.32,130.98,30.0,Becky Castell,Consumer,Furniture,A,0,2012,8,3,1,2012-08,1.11,0.009
+2011-06-07,Critical,48,207.08,Regular Air,-131.82,4.28,5.17,Dorothy Wardle,Corporate,Office Supplies,A,0,2011,6,2,1,2011-06,0.11,0.025
+2011-06-07,Critical,8,234.28,Regular Air,-65.42,28.28,13.99,Dorothy Wardle,Corporate,Office Supplies,A,0,2011,6,2,1,2011-06,1.75,0.0597
+2011-06-07,Critical,41,1779.8915,Regular Air,-250.17,55.99,5.0,Dorothy Wardle,Corporate,Technology,A,0,2011,6,2,1,2011-06,0.12,0.0028
+2009-10-09,Not Specified,0,114.12,Regular Air,15.73,3.8,1.49,Ann Chong,Corporate,Office Supplies,A,1,2009,10,4,4,2009-10,1.49,0.0131
+2009-10-09,Not Specified,15,436.05,Regular Air,-92.58,30.73,4.0,Ann Chong,Corporate,Technology,A,0,2009,10,4,4,2009-10,0.27,0.0092
+2009-10-09,Not Specified,49,5247.4835,Regular Air,1465.87,125.99,8.08,Ann Chong,Corporate,Technology,A,1,2009,10,4,4,2009-10,0.16,0.0015
+2010-12-05,Not Specified,9,173.417,Regular Air,18.23,20.99,0.99,Clay Rozendal,Corporate,Technology,A,1,2010,12,4,6,2010-12,0.11,0.0057
+2009-06-07,Low,18,23792.93,Regular Air,10951.31,1270.99,19.99,Grant Carroll,Small Business,Office Supplies,A,1,2009,6,2,6,2009-06,1.11,0.0008
+2009-07-27,Critical,21,256.12,Regular Air,-18.19,11.97,4.98,Brendan Dodson,Corporate,Office Supplies,A,0,2009,7,3,0,2009-07,0.24,0.0194
+2011-09-05,Low,30,387.0,Express Air,-31.45,12.28,6.13,Carlos Daly,Home Office,Office Supplies,A,0,2011,9,3,0,2011-09,0.2,0.0158
+2009-01-11,High,31,1143.45,Regular Air,304.42,39.24,1.99,Alan Barnes,Corporate,Technology,A,1,2009,1,1,6,2009-01,0.06,0.0017
+2010-08-15,Medium,2,42.31,Regular Air,-53.08,17.98,8.51,Alan Barnes,Corporate,Technology,A,0,2010,8,3,6,2010-08,4.26,0.2011
+2010-08-15,Medium,11,152.67,Regular Air,12.76,12.95,4.98,Alan Barnes,Corporate,Office Supplies,A,1,2010,8,3,6,2010-08,0.45,0.0326
+2009-08-05,Not Specified,49,82.61,Regular Air,-46.25,1.68,1.57,Nicole Hansen,Small Business,Office Supplies,A,0,2009,8,3,2,2009-08,0.03,0.019
+2011-09-17,Medium,31,789.94,Delivery Truck,-190.41,25.98,14.36,Cari Schnelling,Home Office,Furniture,A,0,2011,9,3,5,2011-09,0.46,0.0182
+2011-10-22,Low,42,435.24,Express Air,174.89,10.31,1.79,Chad Cunningham,Small Business,Office Supplies,A,1,2011,10,4,5,2011-10,0.04,0.0041
+2009-11-14,Medium,8,473.7,Regular Air,72.51,59.78,10.29,Bryan Mills,Small Business,Office Supplies,A,1,2009,11,4,5,2009-11,1.29,0.0217
+2009-11-14,Medium,33,553.5625,Regular Air,-76.86,20.99,1.25,Bryan Mills,Small Business,Technology,A,0,2009,11,4,5,2009-11,0.04,0.0023
+2010-07-03,Medium,32,54.78,Regular Air,-30.54,1.68,1.57,Adrian Hane,Corporate,Office Supplies,A,0,2010,7,3,5,2010-07,0.05,0.0287
+2010-07-03,Medium,47,304.83,Regular Air,23.82,7.08,2.35,Adrian Hane,Corporate,Office Supplies,A,1,2010,7,3,5,2010-07,0.05,0.0077
+2009-01-30,Low,0,16066.85,Regular Air,7416.43,574.74,24.49,Rick Reed,Consumer,Technology,A,1,2009,1,1,4,2009-01,24.49,0.0015
+2012-03-15,Not Specified,17,618.9,Regular Air,54.92,36.40588235294118,13.89,Heather Kirkland,Home Office,Office Supplies,A,1,2012,3,1,3,2012-03,0.82,0.0224
+2009-08-10,Low,35,1665.0395,Regular Air,366.51,55.99,3.3,Fred Wasserman,Home Office,Technology,A,1,2009,8,3,0,2009-08,0.09,0.002
+2010-04-01,Low,21,1049.79,Regular Air,135.79,51.75,19.99,Becky Castell,Consumer,Furniture,A,1,2010,4,2,3,2010-04,0.95,0.019
+2010-04-01,Low,16,817.18,Regular Air,103.38,55.29,5.08,Becky Castell,Consumer,Office Supplies,A,1,2010,4,2,3,2010-04,0.32,0.0062
+2010-07-31,High,49,465.83,Regular Air,-79.72,9.65,6.22,Beth Thompson,Corporate,Furniture,A,0,2010,7,3,5,2010-07,0.13,0.0134
+2009-05-29,Low,13,241.706,Regular Air,-92.96,20.99,3.3,Claudia Miner,Small Business,Technology,A,0,2009,5,2,4,2009-05,0.25,0.0137
+2010-10-11,High,44,275.91,Regular Air,-162.37,7.99,5.03,Jack Lebron,Corporate,Technology,A,0,2010,10,4,0,2010-10,0.11,0.0182
+2010-05-18,High,2,30.83,Express Air,7.27,7.64,1.39,Alan Barnes,Corporate,Office Supplies,A,1,2010,5,2,1,2010-05,0.7,0.0451
+2011-02-08,Critical,13,121.66,Regular Air,-11.8,8.85,5.6,Carlos Soltero,Consumer,Office Supplies,A,0,2011,2,1,1,2011-02,0.43,0.046
+2010-12-07,Critical,16,108.42,Regular Air,-50.82,6.48,6.81,Clay Rozendal,Corporate,Office Supplies,A,0,2010,12,4,1,2010-12,0.43,0.0628
+2010-12-07,Critical,27,78.47,Regular Air,17.99,2.88,0.99,Clay Rozendal,Corporate,Office Supplies,A,1,2010,12,4,1,2010-12,0.04,0.0126
+2009-01-06,Critical,90,26133.39,Delivery Truck,-11053.6,880.98,44.55,Julia West,Home Office,Furniture,A,0,2009,1,1,1,2009-01,0.5,0.0017
+2012-03-12,Critical,14,2671.21,Delivery Truck,636.18,200.97,15.59,Alan Barnes,Corporate,Technology,A,1,2012,3,1,0,2012-03,1.11,0.0058
+2010-08-26,Low,26,531.66,Regular Air,135.65,20.89,1.99,Joy Bell,Home Office,Technology,A,1,2010,8,3,3,2010-08,0.08,0.0037
+2010-08-26,Low,28,317.85,Regular Air,-13.95,11.58,6.97,Joy Bell,Home Office,Office Supplies,A,0,2010,8,3,3,2010-08,0.25,0.0219
+2010-08-26,Low,42,163.08,Regular Air,66.17,4.13,0.5,Joy Bell,Home Office,Office Supplies,A,1,2010,8,3,3,2010-08,0.01,0.0031
+2011-06-20,High,38,103.07,Regular Air,-0.95,2.78,1.34,Jack Lebron,Corporate,Office Supplies,A,0,2011,6,2,0,2011-06,0.04,0.013
+2010-08-04,High,1,17.19,Regular Air,-35.34,14.48,1.99,Anthony Johnson,Small Business,Technology,A,0,2010,8,3,2,2010-08,1.99,0.1158
+2010-08-04,High,27,2689.48,Regular Air,399.93,99.99,19.99,Anthony Johnson,Small Business,Technology,A,1,2010,8,3,2,2010-08,0.74,0.0074
+2010-08-04,High,2,15.31,Regular Air,-8.15,4.98,4.86,Anthony Johnson,Small Business,Office Supplies,A,0,2010,8,3,2,2010-08,2.43,0.3174
+2010-11-23,High,-6,270.63,Regular Air,7.07,21.98,8.32,Eugene Barchas,Corporate,Office Supplies,A,1,2010,11,4,1,2010-11,-1.39,0.0307
+2010-11-23,High,43,6583.913,Regular Air,1459.79,195.99,3.99,Eugene Barchas,Corporate,Technology,A,1,2010,11,4,1,2010-11,0.09,0.0006
+2009-08-02,Not Specified,24,4865.72,Delivery Truck,1951.3,200.97,15.59,Thomas Seio,Home Office,Technology,A,1,2009,8,3,6,2009-08,0.65,0.0032
+2011-08-10,Critical,23,1003.31,Regular Air,51.9,40.97,14.45,Bryan Mills,Small Business,Furniture,A,1,2011,8,3,2,2011-08,0.63,0.0144
+2011-08-10,Critical,17,6048.18,Delivery Truck,1418.36,349.45,60.0,Bryan Mills,Small Business,Furniture,A,1,2011,8,3,2,2011-08,3.53,0.0099
+2010-05-06,Critical,41,3051.27,Delivery Truck,121.48,80.97,33.6,Eugene Barchas,Home Office,Technology,A,1,2010,5,2,3,2010-05,0.82,0.011
+2012-06-28,Low,47,9633.59,Delivery Truck,176.67,216.6,64.2,Sylvia Foulston,Corporate,Furniture,A,1,2012,6,2,3,2012-06,1.37,0.0067
+2012-06-28,Low,26,3758.77,Regular Air,753.61,140.81,24.49,Sylvia Foulston,Corporate,Furniture,A,1,2012,6,2,3,2012-06,0.94,0.0065
+2011-03-23,Medium,6,143.78,Regular Air,75.3,22.72,8.99,Carl Ludwig,Corporate,Furniture,A,1,2011,3,1,2,2011-03,1.5,0.0625
+2011-11-19,Critical,22,440.92,Express Air,-65.18,19.98,10.49,Julia West,Small Business,Furniture,A,0,2011,11,4,5,2011-11,0.48,0.0238
+2012-11-26,Low,3,4343.51,Delivery Truck,-3755.03,1500.97,29.7,Don Jones,Corporate,Technology,A,0,2012,11,4,0,2012-11,9.9,0.0068
+2010-07-29,Not Specified,29,593.32,Regular Air,28.99,20.95,4.0,Mike Pelletier,Corporate,Technology,A,1,2010,7,3,3,2010-07,0.14,0.0067
+2010-07-29,Not Specified,26,626.07,Express Air,185.32,23.99,6.71,Mike Pelletier,Corporate,Office Supplies,A,1,2010,7,3,3,2010-07,0.26,0.0107
+2012-05-12,Low,24,557.23,Regular Air,-42.99,24.92,12.98,Eugene Barchas,Home Office,Office Supplies,A,0,2012,5,2,5,2012-05,0.54,0.0233
+2012-03-03,High,7,261.88,Regular Air,-59.2,39.48,1.99,Ann Chong,Corporate,Technology,A,0,2012,3,1,5,2012-03,0.28,0.0076
+2012-03-03,High,15,593.73,Regular Air,108.01,38.76,13.26,Ann Chong,Corporate,Office Supplies,A,1,2012,3,1,5,2012-03,0.88,0.0223
+2010-08-20,High,49,120.77,Regular Air,19.86,2.47,1.02,Charles McCrossin,Corporate,Office Supplies,A,1,2010,8,3,4,2010-08,0.02,0.0084
+2010-06-27,Not Specified,22,795.74,Delivery Truck,-127.39,33.94,19.19,Annie Cyprus,Home Office,Furniture,A,0,2010,6,2,6,2010-06,0.87,0.0241
+2010-06-27,Not Specified,31,251.75,Regular Air,22.46,8.33,1.99,Annie Cyprus,Home Office,Technology,A,1,2010,6,2,6,2010-06,0.06,0.0079
+2012-10-29,Critical,36,697.41,Regular Air,81.71,18.97,9.03,Carlos Soltero,Small Business,Office Supplies,A,1,2012,10,4,0,2012-10,0.25,0.0129
+2010-01-16,Not Specified,30,4684.9,Delivery Truck,-549.27,156.16333333333333,66.27,Doug Bickford,Corporate,Furniture,A,0,2010,1,1,5,2010-01,2.21,0.0141
+2012-06-29,Low,6,905.94,Express Air,-4.19,140.81,24.49,Carlos Daly,Home Office,Furniture,A,0,2012,6,2,4,2012-06,4.08,0.027
+2011-08-08,Not Specified,12,270.23,Regular Air,52.02,22.84,5.47,Fred Wasserman,Home Office,Office Supplies,A,1,2011,8,3,0,2011-08,0.46,0.0202
+2011-08-08,Not Specified,20,660.27,Express Air,63.83,34.76,5.49,Fred Wasserman,Home Office,Office Supplies,A,1,2011,8,3,0,2011-08,0.27,0.0083
+2010-02-21,Medium,11,32.4,Regular Air,8.78,2.88,0.5,Sylvia Foulston,Corporate,Office Supplies,A,1,2010,2,1,6,2010-02,0.05,0.0154
+2011-06-20,Medium,26,4688.9485,Regular Air,1215.44,205.99,5.26,Michelle Lonsdale,Corporate,Technology,A,1,2011,6,2,0,2011-06,0.2,0.0011
+2009-09-04,Critical,8,50.7,Regular Air,-44.07,5.4,7.78,Sylvia Foulston,Corporate,Office Supplies,A,0,2009,9,3,4,2009-09,0.97,0.1535
+2009-09-04,Critical,10,90.06,Express Air,-100.51,8.46,8.99,Sylvia Foulston,Corporate,Technology,A,0,2009,9,3,4,2009-09,0.9,0.0998
+2009-09-04,Critical,22,338.52,Regular Air,-17.75,14.98,8.99,Sylvia Foulston,Corporate,Furniture,A,0,2009,9,3,4,2009-09,0.41,0.0266
+2009-09-04,Critical,48,6109.817,Regular Air,1374.95,155.99,8.08,Sylvia Foulston,Corporate,Technology,A,1,2009,9,3,4,2009-09,0.17,0.0013
+2009-06-21,Not Specified,1,34.11,Regular Air,-12.95,25.38,8.99,Charlotte Melton,Home Office,Furniture,A,0,2009,6,2,6,2009-06,8.99,0.2636
+2012-02-08,Critical,48,538.22,Regular Air,-154.66,10.97,6.5,Barry French,Consumer,Technology,A,0,2012,2,1,2,2012-02,0.14,0.0121
+2009-03-11,High,11,1064.23,Regular Air,-127.56,99.99,19.99,Heather Kirkland,Home Office,Technology,A,0,2009,3,1,2,2009-03,1.82,0.0188
+2009-03-11,High,18,3497.05,Regular Air,282.18,193.17,19.99,Heather Kirkland,Home Office,Office Supplies,A,1,2009,3,1,2,2009-03,1.11,0.0057
+2009-03-11,High,44,774.0525,Express Air,-96.34,20.99,3.3,Heather Kirkland,Home Office,Technology,A,0,2009,3,1,2,2009-03,0.08,0.0043
+2011-06-04,Low,3,74.05,Regular Air,44.54,19.99,11.17,Henry Goldwyn,Small Business,Furniture,A,1,2011,6,2,5,2011-06,3.72,0.1508
+2012-03-02,Low,37,5753.85,Regular Air,2509.52,150.98,13.99,Frank Price,Corporate,Technology,A,1,2012,3,1,4,2012-03,0.38,0.0024
+2011-08-12,Medium,48,18235.47,Delivery Truck,1166.93,370.98,99.0,Jim Radford,Corporate,Office Supplies,A,1,2011,8,3,4,2011-08,2.06,0.0054
+2011-08-12,Medium,16,2631.107,Regular Air,297.11,179.99,13.99,Jim Radford,Corporate,Technology,A,1,2011,8,3,4,2011-08,0.87,0.0053
+2009-09-01,Critical,32,209.42,Regular Air,65.41,6.74,1.72,Ralph Knight,Consumer,Office Supplies,A,1,2009,9,3,1,2009-09,0.05,0.0082
+2010-01-26,Critical,32,324.4,Regular Air,-46.98,10.89,4.5,Delfina Latchford,Small Business,Office Supplies,A,0,2010,1,1,1,2010-01,0.14,0.0139
+2010-01-26,Critical,-6,137.02,Regular Air,-46.89,6.48,6.6,Delfina Latchford,Small Business,Office Supplies,A,0,2010,1,1,1,2010-01,-1.1,0.0482
+2011-09-02,Critical,1,232.67,Regular Air,-105.14,223.98,15.01,Roy Skaria,Corporate,Office Supplies,A,0,2011,9,3,4,2011-09,15.01,0.0645
+2011-09-02,Critical,34,4805.92,Delivery Truck,-393.96,140.98,36.09,Roy Skaria,Corporate,Furniture,A,0,2011,9,3,4,2011-09,1.06,0.0075
+2012-02-07,Critical,70,62.26,Regular Air,-23.24,54.96,10.75,Monica Federle,Corporate,Office Supplies,A,0,2012,2,1,1,2012-02,0.15,0.1727
+2012-02-07,Critical,47,58.53,Regular Air,-24.86,1.26,0.7,Monica Federle,Corporate,Office Supplies,A,0,2012,2,1,1,2012-02,0.01,0.012
+2011-03-19,Critical,31,157.79,Regular Air,-95.92,4.98,6.07,Charles McCrossin,Corporate,Office Supplies,A,0,2011,3,1,5,2011-03,0.2,0.0385
+2011-05-08,Not Specified,19,376.21,Regular Air,89.56,18.99,5.23,Don Miller,Home Office,Office Supplies,A,1,2011,5,2,6,2011-05,0.28,0.0139
+2009-09-25,Critical,37,1601.24,Regular Air,520.69,46.89,5.1,Jeremy Lonsdale,Corporate,Office Supplies,A,1,2009,9,3,4,2009-09,0.14,0.0032
+2009-09-25,Critical,40,501.31,Regular Air,38.23,12.98,3.14,Jeremy Lonsdale,Corporate,Office Supplies,A,1,2009,9,3,4,2009-09,0.08,0.0063
+2012-07-09,Not Specified,2,24.96,Regular Air,-12.8,10.91,2.99,Grant Carroll,Corporate,Office Supplies,A,0,2012,7,3,0,2012-07,1.5,0.1198
+2010-01-14,High,31,166.76,Regular Air,-46.03,4.98,4.75,Carl Ludwig,Corporate,Office Supplies,A,0,2010,1,1,3,2010-01,0.15,0.0285
+2009-08-26,High,2,811.13,Regular Air,-517.47,415.88,11.37,Carlos Daly,Corporate,Office Supplies,A,0,2009,8,3,2,2009-08,5.68,0.014
+2009-10-08,Critical,15,822.8425,Regular Air,4.39,65.99,5.92,Ralph Knight,Consumer,Technology,A,1,2009,10,4,3,2009-10,0.39,0.0072
+2011-11-10,High,35,3310.9455,Regular Air,822.4,115.99,2.5,Cindy Schnelling,Corporate,Technology,A,1,2011,11,4,3,2011-11,0.07,0.0008
+2012-04-15,High,10,55.02,Regular Air,-56.12,5.02,5.14,Claudia Miner,Small Business,Technology,A,0,2012,4,2,6,2012-04,0.51,0.0934
+2012-01-02,Medium,10,192.58,Regular Air,24.6,19.84,4.1,Roy Skaria,Corporate,Office Supplies,A,1,2012,1,1,0,2012-01,0.41,0.0213
+2011-03-08,Not Specified,40,291.67,Regular Air,54.46,6.75,2.99,Delfina Latchford,Small Business,Office Supplies,A,1,2011,3,1,1,2011-03,0.07,0.0103
+2009-07-02,High,50,281.39,Regular Air,-106.4,5.74,5.01,Edward Hooks,Consumer,Office Supplies,A,0,2009,7,3,3,2009-07,0.1,0.0178
+2009-07-02,High,49,12593.91,Delivery Truck,2699.67,270.97,28.06,Edward Hooks,Consumer,Technology,A,1,2009,7,3,3,2009-07,0.57,0.0022
+2011-04-15,Critical,22,6123.94,Delivery Truck,1292.44,260.98,41.91,Don Miller,Home Office,Furniture,A,1,2011,4,2,4,2011-04,1.9,0.0068
+2011-11-25,High,49,19325.2,Regular Air,8793.54,387.99,19.99,Grant Carroll,Small Business,Office Supplies,A,1,2011,11,4,4,2011-11,0.41,0.001
+2011-11-25,High,48,8380.22,Delivery Truck,813.83,160.98,35.02,Grant Carroll,Small Business,Furniture,A,1,2011,11,4,4,2011-11,0.73,0.0042
+2012-04-25,Critical,11,35.17,Regular Air,5.58,3.08,0.99,Brad Eason,Small Business,Office Supplies,A,1,2012,4,2,2,2012-04,0.09,0.0281
+2011-03-26,Medium,35,17387.65,Regular Air,6907.61,499.99,24.49,Charles McCrossin,Corporate,Technology,A,1,2011,3,1,5,2011-03,0.7,0.0014
+2011-03-26,Medium,44,6040.22,Regular Air,-942.5,138.14,35.0,Charles McCrossin,Corporate,Office Supplies,A,0,2011,3,1,5,2011-03,0.8,0.0058
+2010-07-14,Low,17,691.59,Regular Air,261.24,41.94,2.99,Charles McCrossin,Corporate,Office Supplies,A,1,2010,7,3,2,2010-07,0.18,0.0043
+2010-07-14,Low,45,345.2,Regular Air,183.53,7.31,0.49,Charles McCrossin,Corporate,Office Supplies,A,1,2010,7,3,2,2010-07,0.01,0.0014
+2010-10-23,Not Specified,36,1955.0765,Regular Air,470.83,65.99,3.9,Bryan Mills,Small Business,Technology,A,1,2010,10,4,5,2010-10,0.11,0.002
+2009-08-24,Not Specified,27,217.93,Regular Air,-29.02,7.64,5.83,Monica Federle,Corporate,Office Supplies,A,0,2009,8,3,0,2009-08,0.22,0.0268
+2011-06-09,Low,6,254.76,Regular Air,109.88,40.97,14.45,Michelle Lonsdale,Home Office,Furniture,A,1,2011,6,2,3,2011-06,2.41,0.0567
+2012-11-23,Medium,21,6806.66,Delivery Truck,801.72,299.05,87.01,Michelle Lonsdale,Corporate,Furniture,A,1,2012,11,4,4,2012-11,4.14,0.0128
+2012-11-23,Medium,3,891.61,Delivery Truck,-328.36,291.73,48.8,Michelle Lonsdale,Corporate,Furniture,A,0,2012,11,4,4,2012-11,16.27,0.0547
+2012-11-23,Medium,5,165.04,Regular Air,-112.44,30.42,8.65,Michelle Lonsdale,Corporate,Technology,A,0,2012,11,4,4,2012-11,1.73,0.0524
+2009-05-01,Not Specified,2,789.01,Regular Air,-539.59,415.88,11.37,Beth Thompson,Corporate,Office Supplies,A,0,2009,5,2,4,2009-05,5.68,0.0144
+2012-05-11,Critical,4,97.57,Regular Air,-27.31,19.94,14.87,Cindy Schnelling,Corporate,Furniture,A,0,2012,5,2,4,2012-05,3.72,0.1524
+2012-05-11,Critical,31,110.32,Regular Air,-32.65,3.68,1.32,Cindy Schnelling,Corporate,Office Supplies,A,0,2012,5,2,4,2012-05,0.04,0.012
+2010-10-15,Critical,26,321.68,Regular Air,-12.25,11.97,4.98,Nicole Hansen,Small Business,Office Supplies,A,0,2010,10,4,4,2010-10,0.19,0.0155
+2010-10-15,Critical,34,971.95,Express Air,-21.1,29.74,6.64,Nicole Hansen,Small Business,Office Supplies,A,0,2010,10,4,4,2010-10,0.2,0.0068
+2010-10-15,Critical,23,2149.03,Regular Air,-235.56,95.43,19.99,Nicole Hansen,Small Business,Office Supplies,A,0,2010,10,4,4,2010-10,0.87,0.0093
+2011-07-23,Low,12,3671.3,Regular Air,900.06,300.65,24.49,Cari Schnelling,Home Office,Office Supplies,A,1,2011,7,3,5,2011-07,2.04,0.0067
+2011-07-23,Low,42,1763.6,Regular Air,455.37,45.19,1.99,Cari Schnelling,Home Office,Technology,A,1,2011,7,3,5,2011-07,0.05,0.0011
+2011-07-11,Critical,14,403.17,Regular Air,147.45,28.53,1.49,Roy Skaria,Corporate,Office Supplies,A,1,2011,7,3,0,2011-07,0.11,0.0037
+2012-09-16,Critical,15,89.97,Regular Air,23.48,5.68,1.46,Susan Vittorini,Corporate,Office Supplies,A,1,2012,9,3,6,2012-09,0.1,0.0162
+2012-09-16,Critical,28,456.91,Express Air,-328.18,15.51,17.78,Susan Vittorini,Corporate,Office Supplies,A,0,2012,9,3,6,2012-09,0.64,0.0389
+2009-01-16,Medium,46,249.02,Regular Air,-282.61,5.81,8.49,Sylvia Foulston,Corporate,Office Supplies,A,0,2009,1,1,4,2009-01,0.18,0.0341
+2009-01-16,Medium,41,78.49,Regular Air,5.53,1.81,0.75,Sylvia Foulston,Corporate,Office Supplies,A,1,2009,1,1,4,2009-01,0.02,0.0096
+2010-10-20,Low,4,40.72,Express Air,-10.25,6.68,6.93,Chad Cunningham,Small Business,Office Supplies,A,0,2010,10,4,2,2010-10,1.73,0.1702
+2010-10-20,Low,27,113.3,Regular Air,37.33,3.93,0.99,Chad Cunningham,Small Business,Office Supplies,A,1,2010,10,4,2,2010-10,0.04,0.0087
+2010-08-30,High,87,1219.19,Regular Air,44.37,150.98,13.99,Carlos Daly,Corporate,Technology,A,1,2010,8,3,0,2010-08,0.16,0.0115
+2010-08-30,High,15,28.68,Regular Air,-0.12,1.76,0.7,Carlos Daly,Corporate,Office Supplies,A,0,2010,8,3,0,2010-08,0.05,0.0244
+2010-05-07,Critical,19,3548.67,Regular Air,1280.19,177.98,0.99,Grant Carroll,Corporate,Office Supplies,A,1,2010,5,2,4,2010-05,0.05,0.0003
+2011-06-21,Critical,8,178.78,Regular Air,-28.34,20.24,8.99,Julia West,Home Office,Furniture,A,0,2011,6,2,1,2011-06,1.12,0.0503
+2010-11-24,Medium,41,6045.98,Delivery Truck,-996.67,150.98,66.27,Roy Skaria,Corporate,Furniture,A,0,2010,11,4,2,2010-11,1.62,0.011
+2012-04-27,Medium,3,56.695,Regular Air,-70.97,20.99,0.99,Cindy Schnelling,Corporate,Technology,A,0,2012,4,2,4,2012-04,0.33,0.0175
+2012-08-28,Low,24,1350.531,Regular Air,221.18,65.99,5.26,Don Jones,Corporate,Technology,A,1,2012,8,3,1,2012-08,0.22,0.0039
+2011-07-31,High,20,100.4,Regular Air,11.94,5.18,2.04,Beth Thompson,Corporate,Office Supplies,A,1,2011,7,3,6,2011-07,0.1,0.0203
+2011-07-31,High,19,327.15,Regular Air,47.3,17.24,3.26,Beth Thompson,Corporate,Office Supplies,A,1,2011,7,3,6,2011-07,0.17,0.01
+2012-10-06,Medium,11,30.51,Regular Air,-17.68,2.6,2.4,Alan Barnes,Corporate,Office Supplies,A,0,2012,10,4,5,2012-10,0.22,0.0787
+2012-10-06,Medium,8,127.8,Regular Air,-30.48,14.97,7.51,Alan Barnes,Corporate,Office Supplies,A,0,2012,10,4,5,2012-10,0.94,0.0588
+2010-02-06,Not Specified,4,242.36,Regular Air,-131.48,60.98,1.99,Carl Ludwig,Corporate,Technology,A,0,2010,2,1,5,2010-02,0.5,0.0082
+2010-02-06,Not Specified,25,802.19,Regular Air,56.26,29.74,6.64,Carl Ludwig,Corporate,Office Supplies,A,1,2010,2,1,5,2010-02,0.27,0.0083
+2010-02-06,Not Specified,4,63.52,Express Air,-8.47,12.21,4.81,Carl Ludwig,Corporate,Office Supplies,A,0,2010,2,1,5,2010-02,1.2,0.0757
+2011-10-17,Not Specified,13,371.94,Regular Air,106.53,29.14,4.86,Jamie Kunitz,Corporate,Office Supplies,A,1,2011,10,4,0,2011-10,0.37,0.0131
+2009-08-20,Not Specified,31,349.43,Regular Air,-44.92,11.5,7.19,Heather Kirkland,Home Office,Office Supplies,A,0,2009,8,3,3,2009-08,0.23,0.0206
+2009-08-20,Not Specified,3,58.33,Regular Air,-35.08,15.7,11.25,Heather Kirkland,Home Office,Office Supplies,A,0,2009,8,3,3,2009-08,3.75,0.1929
+2009-08-20,Not Specified,47,10377.22,Delivery Truck,965.48,225.02,28.66,Heather Kirkland,Home Office,Office Supplies,A,1,2009,8,3,3,2009-08,0.61,0.0028
+2010-06-14,Critical,14,140.66,Regular Air,11.34,9.27,4.39,Doug Bickford,Corporate,Office Supplies,A,1,2010,6,2,0,2010-06,0.31,0.0312
+2010-06-14,Critical,5,42.89,Regular Air,-32.48,6.84,8.37,Doug Bickford,Corporate,Office Supplies,A,0,2010,6,2,0,2010-06,1.67,0.1952
+2010-06-14,Critical,48,226.5,Regular Air,-173.15,4.98,4.62,Doug Bickford,Corporate,Technology,A,0,2010,6,2,0,2010-06,0.1,0.0204
+2010-06-14,Critical,13,438.93,Express Air,-119.02,32.98,5.5,Doug Bickford,Corporate,Technology,A,0,2010,6,2,0,2010-06,0.42,0.0125
+2010-02-27,Not Specified,31,15251.5,Delivery Truck,5353.19,500.97,69.3,Carlos Daly,Home Office,Technology,A,1,2010,2,1,5,2010-02,2.24,0.0045
+2009-08-15,High,13,34.42,Regular Air,9.47,2.61,0.5,Toby Braunhardt,Corporate,Office Supplies,A,1,2009,8,3,5,2009-08,0.04,0.0145
+2009-08-15,High,26,172.76,Regular Air,73.18,7.31,0.49,Toby Braunhardt,Corporate,Office Supplies,A,1,2009,8,3,5,2009-08,0.02,0.0028
+2009-08-15,High,50,853.162,Regular Air,-83.95,20.99,2.5,Toby Braunhardt,Corporate,Technology,A,0,2009,8,3,5,2009-08,0.05,0.0029
+2011-05-14,High,6,35.65,Regular Air,-5.92,5.34,2.99,Cari Schnelling,Home Office,Office Supplies,A,0,2011,5,2,5,2011-05,0.5,0.0839
+2010-10-07,High,49,199.86,Regular Air,-257.11,4.06,6.89,Thomas Seio,Home Office,Office Supplies,A,0,2010,10,4,3,2010-10,0.14,0.0345
+2010-10-07,Critical,18,1888.02,Regular Air,192.33,99.99,19.99,Thomas Seio,Home Office,Technology,A,1,2010,10,4,3,2010-10,1.11,0.0106
+2010-10-07,Critical,27,322.69,Regular Air,1.91,11.58,6.97,Thomas Seio,Home Office,Office Supplies,A,1,2010,10,4,3,2010-10,0.26,0.0216
+2009-10-23,Not Specified,5,22.06,Regular Air,-22.28,3.36,6.27,Brendan Dodson,Corporate,Office Supplies,A,0,2009,10,4,4,2009-10,1.25,0.2842
+2009-10-23,Not Specified,19,12616.2,Regular Air,2808.22,699.99,24.49,Brendan Dodson,Corporate,Technology,A,1,2009,10,4,4,2009-10,1.29,0.0019
+2010-06-09,Medium,31,148.17,Regular Air,-7.06,4.71,0.7,Charlotte Melton,Home Office,Office Supplies,A,0,2010,6,2,2,2010-06,0.02,0.0047
+2011-01-10,Not Specified,39,217.25,Regular Air,33.5,5.84,1.2,Beth Thompson,Corporate,Office Supplies,A,1,2011,1,1,0,2011-01,0.03,0.0055
+2011-01-10,Not Specified,28,5993.74,Delivery Truck,-998.94,218.75,69.64,Beth Thompson,Corporate,Furniture,A,0,2011,1,1,0,2011-01,2.49,0.0116
+2009-01-30,Critical,23,361.65,Express Air,-144.27,15.98,8.99,Eugene Barchas,Corporate,Technology,A,0,2009,1,1,4,2009-01,0.39,0.0249
+2011-03-28,Low,45,1038.82,Regular Air,-78.36,22.38,15.1,Michelle Lonsdale,Home Office,Office Supplies,A,0,2011,3,1,0,2011-03,0.34,0.0145
+2011-03-28,Low,47,564.39,Regular Air,51.82,12.95,4.98,Michelle Lonsdale,Home Office,Office Supplies,A,1,2011,3,1,0,2011-03,0.11,0.0088
+2010-11-22,Low,6,826.9735,Regular Air,-413.33,155.99,8.99,Grant Carroll,Corporate,Technology,A,0,2010,11,4,0,2010-11,1.5,0.0109
+2011-05-30,Not Specified,33,999.226,Regular Air,381.17,35.99,3.3,Beth Paige,Consumer,Technology,A,1,2011,5,2,0,2011-05,0.1,0.0033
+2012-05-13,High,24,2298.32,Regular Air,218.72,99.99,19.99,Dorothy Wardle,Corporate,Technology,A,1,2012,5,2,6,2012-05,0.83,0.0087
+2010-06-08,Medium,24,1168.15,Express Air,-743.96,48.91,35.0,Muhammed MacIntyre,Small Business,Office Supplies,A,0,2010,6,2,1,2010-06,1.46,0.03
+2009-11-29,Medium,47,181.78,Regular Air,71.56,3.78,0.71,Charlotte Melton,Home Office,Office Supplies,A,1,2009,11,4,6,2009-11,0.02,0.0039
+2012-09-01,High,99,1184.32,Regular Air,-99.55,26.31,5.89,Muhammed MacIntyre,Small Business,Technology,A,0,2012,9,3,5,2012-09,0.06,0.005
+2010-02-26,Medium,3,71.94,Regular Air,-70.68,20.95,5.99,Claudia Miner,Small Business,Technology,A,0,2010,2,1,4,2010-02,2.0,0.0833
+2010-02-26,Medium,10,550.61,Express Air,98.32,55.98,13.88,Claudia Miner,Small Business,Office Supplies,A,1,2010,2,1,4,2010-02,1.39,0.0252
+2010-02-26,Medium,18,1373.11,Regular Air,-599.54,80.98,35.0,Claudia Miner,Small Business,Office Supplies,A,0,2010,2,1,4,2010-02,1.94,0.0255
+2012-05-21,Medium,32,368.18,Regular Air,-36.78,12.21,4.81,Brendan Dodson,Corporate,Office Supplies,A,0,2012,5,2,0,2012-05,0.15,0.0131
+2009-11-08,Not Specified,16,224.47,Regular Air,-49.31,13.9,7.59,Dorothy Wardle,Corporate,Office Supplies,A,0,2009,11,4,6,2009-11,0.47,0.0338
+2010-08-27,Medium,1,104.85,Regular Air,-98.31,55.5,52.2,Mike Pelletier,Corporate,Furniture,A,0,2010,8,3,4,2010-08,52.2,0.4979
+2012-08-17,High,47,256.0,Regular Air,-119.84,5.28,5.66,Edward Hooks,Consumer,Office Supplies,A,0,2012,8,3,4,2012-08,0.12,0.0221
+2012-08-17,High,20,6067.76,Delivery Truck,-98.05,296.18,54.12,Edward Hooks,Consumer,Furniture,A,0,2012,8,3,4,2012-08,2.71,0.0089
+2012-11-09,High,29,2754.93,Regular Air,-1.33,92.23,39.61,Jamie Kunitz,Corporate,Furniture,A,0,2012,11,4,4,2012-11,1.37,0.0144
+2012-11-09,High,15,19417.55,Regular Air,8417.57,1270.99,19.99,Jamie Kunitz,Corporate,Office Supplies,A,1,2012,11,4,4,2012-11,1.33,0.001
+2011-06-02,Critical,40,4842.21,Delivery Truck,-1975.26,122.99,70.2,Julia West,Home Office,Furniture,A,0,2011,6,2,3,2011-06,1.76,0.0145
+2011-08-10,High,31,615.58,Regular Air,168.0,18.99,5.23,Jeremy Lonsdale,Corporate,Office Supplies,A,1,2011,8,3,2,2011-08,0.17,0.0085
+2011-08-10,High,41,8387.1,Regular Air,2113.95,218.08,18.06,Jeremy Lonsdale,Corporate,Furniture,A,1,2011,8,3,2,2011-08,0.44,0.0022
+2011-08-10,High,101,126.02,Regular Air,66.97,20.24,6.67,Jeremy Lonsdale,Corporate,Furniture,A,1,2011,8,3,2,2011-08,0.07,0.0529
+2011-08-10,High,30,68.14,Regular Air,6.37,2.18,0.78,Jeremy Lonsdale,Corporate,Office Supplies,A,1,2011,8,3,2,2011-08,0.03,0.0114
+2009-02-27,Low,14,71.47,Regular Air,-62.73,4.98,4.62,Cindy Schnelling,Corporate,Technology,A,0,2009,2,1,4,2009-02,0.33,0.0646
+2010-06-07,Not Specified,10,568.3355,Regular Air,-147.36,65.99,8.99,Heather Kirkland,Home Office,Technology,A,0,2010,6,2,0,2010-06,0.9,0.0158
+2012-02-17,Low,38,2157.3085,Regular Air,519.25,65.99,5.31,Alan Barnes,Corporate,Technology,A,1,2012,2,1,4,2012-02,0.14,0.0025
+2012-02-23,Low,26,1363.0,Delivery Truck,149.83,50.98,14.19,Hunter Glantz,Corporate,Furniture,A,1,2012,2,1,3,2012-02,0.55,0.0104
+2012-02-23,Low,36,4698.5,Delivery Truck,-219.38,124.49,51.94,Hunter Glantz,Corporate,Furniture,A,0,2012,2,1,3,2012-02,1.44,0.0111
+2012-02-23,Low,16,347.47,Regular Air,-86.2,22.38,15.1,Hunter Glantz,Corporate,Office Supplies,A,0,2012,2,1,3,2012-02,0.94,0.0435
+2009-10-15,Critical,23,1404.22,Regular Air,202.87,63.94,14.48,Julia West,Consumer,Furniture,A,1,2009,10,4,3,2009-10,0.63,0.0103
+2009-03-13,Critical,3,17.52,Regular Air,-12.16,4.13,5.04,Carlos Daly,Home Office,Office Supplies,A,0,2009,3,1,4,2009-03,1.68,0.2877
+2010-03-12,Medium,36,4273.8,Delivery Truck,-1775.83,122.99,70.2,Barry French,Consumer,Furniture,A,0,2010,3,1,4,2010-03,1.95,0.0164
+2009-07-07,Low,25,192.18,Regular Air,-48.88,7.1,6.05,Susan Vittorini,Home Office,Office Supplies,A,0,2009,7,3,1,2009-07,0.24,0.0315
+2012-11-21,Low,22,483.96,Regular Air,-34.09,21.38,8.99,Carl Jackson,Home Office,Office Supplies,A,0,2012,11,4,2,2012-11,0.41,0.0186
+2012-11-21,Low,10,308.363,Regular Air,42.27,35.99,0.99,Carl Jackson,Home Office,Technology,A,1,2012,11,4,2,2012-11,0.1,0.0032
+2012-11-21,Low,26,1911.4035,Regular Air,822.89,85.99,1.25,Carl Jackson,Home Office,Technology,A,1,2012,11,4,2,2012-11,0.05,0.0007
+2009-03-02,Medium,29,862.2,Regular Air,-45.1,30.73,4.0,Alan Barnes,Corporate,Technology,A,0,2009,3,1,0,2009-03,0.14,0.0046
+2011-09-22,High,7,120.03,Regular Air,-56.06,15.7,11.25,Charlotte Melton,Home Office,Office Supplies,A,0,2011,9,3,3,2011-09,1.61,0.0937
+2011-07-21,Not Specified,1,18.92,Regular Air,-18.25,11.5,7.19,Beth Thompson,Corporate,Office Supplies,A,0,2011,7,3,3,2011-07,7.19,0.38
+2009-07-13,Not Specified,45,237.28,Express Air,-2088.68,4.48,49.0,Bryan Mills,Small Business,Office Supplies,A,0,2009,7,3,0,2009-07,1.09,0.2065
+2010-03-29,High,5,324.55,Regular Air,-12.82,67.84,0.99,Alan Barnes,Corporate,Office Supplies,A,0,2010,3,1,0,2010-03,0.2,0.0031
+2010-03-29,High,31,8901.78,Regular Air,2795.36,276.2,24.49,Alan Barnes,Corporate,Furniture,A,1,2010,3,1,0,2010-03,0.79,0.0028
+2010-02-06,Low,15,1062.959,Express Air,298.48,85.99,2.5,Beth Paige,Consumer,Technology,A,1,2010,2,1,5,2010-02,0.17,0.0024
+2012-09-12,Low,35,7468.86,Delivery Truck,2155.41,200.98,23.76,Mike Pelletier,Small Business,Furniture,A,1,2012,9,3,2,2012-09,0.68,0.0032
+2010-12-22,High,12,710.328,Regular Air,-10.3,65.99,5.31,Delfina Latchford,Small Business,Technology,A,0,2010,12,4,2,2010-12,0.44,0.0075
+2009-05-30,Critical,4,3510.82,Regular Air,232.44,896.99,19.99,Susan Vittorini,Home Office,Office Supplies,A,1,2009,5,2,5,2009-05,5.0,0.0057
+2012-12-21,Critical,19,281.84,Regular Air,-21.85,15.01,8.4,Dorothy Wardle,Corporate,Office Supplies,A,0,2012,12,4,4,2012-12,0.44,0.0298
+2012-12-21,Critical,25,509.52,Regular Air,-145.78,20.97,6.5,Dorothy Wardle,Corporate,Technology,A,0,2012,12,4,4,2012-12,0.26,0.0128
+2012-12-21,Critical,10,97.02,Regular Air,-3.96,10.01,1.99,Dorothy Wardle,Corporate,Technology,A,0,2012,12,4,4,2012-12,0.2,0.0205
+2012-02-14,Not Specified,32,225.16,Regular Air,-33.69,6.68,5.2,Susan Vittorini,Home Office,Office Supplies,A,0,2012,2,1,1,2012-02,0.16,0.0231
+2010-07-03,Not Specified,20,205.33,Regular Air,10.68,9.77,6.02,Jamie Kunitz,Corporate,Furniture,A,1,2010,7,3,5,2010-07,0.3,0.0293
+2011-05-16,Critical,17,1368.14,Express Air,171.26,76.72,19.95,Fred Wasserman,Home Office,Office Supplies,A,1,2011,5,2,0,2011-05,1.17,0.0146
+2010-03-07,Medium,42,2475.83,Regular Air,752.37,59.98,3.99,Doug Bickford,Corporate,Office Supplies,A,1,2010,3,1,6,2010-03,0.1,0.0016
+2009-04-27,Not Specified,40,2205.7585,Regular Air,337.04,65.99,8.99,Fred Wasserman,Home Office,Technology,A,1,2009,4,2,0,2009-04,0.22,0.0041
+2012-04-07,High,21,524.2,Regular Air,158.98,23.99,6.71,Susan Vittorini,Corporate,Office Supplies,A,1,2012,4,2,5,2012-04,0.32,0.0128
+2010-12-31,Medium,39,6553.45,Regular Air,2969.81,162.93,19.99,Doug Bickford,Small Business,Office Supplies,A,1,2010,12,4,4,2010-12,0.51,0.0031
+2010-02-02,Not Specified,45,497.14,Regular Air,240.41,10.94,1.39,Claudia Miner,Small Business,Office Supplies,A,1,2010,2,1,1,2010-02,0.03,0.0028
+2010-02-02,Not Specified,21,917.39,Express Air,393.41,40.98,2.99,Claudia Miner,Small Business,Office Supplies,A,1,2010,2,1,1,2010-02,0.14,0.0033
+2012-04-15,Not Specified,19,110.67,Regular Air,-43.75,5.99,4.92,Frank Price,Corporate,Office Supplies,A,0,2012,4,2,6,2012-04,0.26,0.0445
+2012-04-15,Not Specified,20,1163.123,Regular Air,83.84,65.99,8.99,Frank Price,Corporate,Technology,A,1,2012,4,2,6,2012-04,0.45,0.0077
+2010-05-19,High,48,224.58,Regular Air,-144.76,4.57,5.42,Dorothy Wardle,Corporate,Office Supplies,A,0,2010,5,2,2,2010-05,0.11,0.0241
+2010-05-19,High,34,365.77,Regular Air,155.69,10.67,1.39,Dorothy Wardle,Corporate,Office Supplies,A,1,2010,5,2,2,2010-05,0.04,0.0038
+2010-05-19,High,34,16073.03,Delivery Truck,5386.32,442.14,14.7,Dorothy Wardle,Corporate,Technology,A,1,2010,5,2,2,2010-05,0.43,0.0009
+2009-07-27,Not Specified,15,30.68,Regular Air,-37.39,1.74,4.08,Allen Rosenblatt,Small Business,Furniture,A,0,2009,7,3,0,2009-07,0.27,0.133
+2009-03-31,Not Specified,1,54.077,Express Air,-232.99,55.99,5.0,Dorothy Wardle,Corporate,Technology,A,0,2009,3,1,1,2009-03,5.0,0.0925
+2012-06-11,Critical,27,899.97,Express Air,-246.3,33.98,19.99,Julia West,Consumer,Furniture,A,0,2012,6,2,0,2012-06,0.74,0.0222
+2010-09-01,Not Specified,0,6789.9275,Regular Air,1864.66,200.99,4.2,Ralph Knight,Consumer,Technology,A,1,2010,9,3,2,2010-09,4.2,0.0006
+2012-08-09,Critical,5,748.29,Delivery Truck,-183.6,135.99,28.63,Michelle Lonsdale,Corporate,Furniture,A,0,2012,8,3,3,2012-08,5.73,0.0383
+2010-05-07,High,37,2522.21,Regular Air,1026.07,63.94,14.48,Charlotte Melton,Home Office,Furniture,A,1,2010,5,2,4,2010-05,0.39,0.0057
+2010-05-07,High,28,4181.82,Regular Air,1765.48,140.99,13.99,Charlotte Melton,Home Office,Technology,A,1,2010,5,2,4,2010-05,0.5,0.0033
+2011-08-25,Medium,39,680.8585,Regular Air,319.1,20.99,0.99,Allen Rosenblatt,Small Business,Technology,A,1,2011,8,3,3,2011-08,0.03,0.0015
+2010-09-21,Critical,20,759.84,Regular Air,162.83,39.24,1.99,Neola Schneider,Home Office,Technology,A,1,2010,9,3,1,2010-09,0.1,0.0026
+2010-09-21,Critical,19,147.39,Regular Air,-30.92,7.64,5.83,Neola Schneider,Home Office,Office Supplies,A,0,2010,9,3,1,2010-09,0.31,0.0396
+2012-06-30,Low,5,294.0,Regular Air,181.53,54.74,14.83,Joy Bell,Home Office,Furniture,A,1,2012,6,2,5,2012-06,2.97,0.0504
+2011-01-17,Critical,34,216.3,Regular Air,103.16,6.3,0.5,Monica Federle,Corporate,Office Supplies,A,1,2011,1,1,0,2011-01,0.01,0.0023
+2010-10-10,Critical,12,31.6,Regular Air,-3.64,2.84,0.93,Jamie Kunitz,Corporate,Office Supplies,A,0,2010,10,4,6,2010-10,0.08,0.0294
+2011-06-09,High,43,154.18,Regular Air,-166.92,3.58,5.47,Susan Vittorini,Corporate,Office Supplies,A,0,2011,6,2,3,2011-06,0.13,0.0355
+2011-06-09,High,18,110.31,Regular Air,-1.22,5.85,2.27,Susan Vittorini,Corporate,Office Supplies,A,0,2011,6,2,3,2011-06,0.13,0.0206
+2011-06-09,High,41,137.51,Regular Air,21.62,3.29,1.35,Susan Vittorini,Corporate,Office Supplies,A,1,2011,6,2,3,2011-06,0.03,0.0098
+2012-06-26,Low,27,302.2,Regular Air,20.27,10.98,3.37,Charles McCrossin,Corporate,Office Supplies,A,1,2012,6,2,1,2012-06,0.12,0.0112
+2010-03-16,Medium,46,399.58,Regular Air,-188.53,8.45,7.77,Cari Schnelling,Small Business,Office Supplies,A,0,2010,3,1,1,2010-03,0.17,0.0194
+2010-11-13,Critical,8,52.39,Regular Air,-17.38,5.89,5.57,Doug Bickford,Corporate,Furniture,A,0,2010,11,4,5,2010-11,0.7,0.1063
+2009-11-14,Medium,12,61.09,Regular Air,24.06,4.91,0.5,Don Miller,Home Office,Office Supplies,A,1,2009,11,4,5,2009-11,0.04,0.0082
+2009-11-14,Medium,48,777.76,Regular Air,63.46,15.94,5.45,Don Miller,Home Office,Office Supplies,A,1,2009,11,4,5,2009-11,0.11,0.007
+2011-09-12,High,4,108.87,Regular Air,-39.92,22.84,16.87,Fred Wasserman,Home Office,Office Supplies,A,0,2011,9,3,0,2011-09,4.22,0.155
+2009-11-23,Medium,48,10051.52,Regular Air,4938.78,204.1,13.99,Bryan Mills,Small Business,Technology,A,1,2009,11,4,0,2009-11,0.29,0.0014
+2010-07-10,Critical,1,97.13,Regular Air,-37.06,98.31,0.49,Carlos Daly,Corporate,Office Supplies,A,0,2010,7,3,5,2010-07,0.49,0.005
+2009-03-06,Medium,26,1523.5,Regular Air,-807.89,60.98,49.0,Joy Bell,Home Office,Office Supplies,A,0,2009,3,1,4,2009-03,1.88,0.0322
+2011-02-17,Low,5,756.15,Delivery Truck,-280.28,145.45,17.85,Claudia Miner,Small Business,Technology,A,0,2011,2,1,3,2011-02,3.57,0.0236
+2011-02-17,Low,1,18.15,Regular Air,-7.26,12.28,6.13,Claudia Miner,Small Business,Office Supplies,A,0,2011,2,1,3,2011-02,6.13,0.3377
+2011-11-19,High,12,1323.67,Express Air,630.28,107.53,5.81,Beth Thompson,Corporate,Furniture,A,1,2011,11,4,5,2011-11,0.48,0.0044
+2011-06-03,Critical,17,47.44,Regular Air,14.49,2.89,0.5,Allen Rosenblatt,Small Business,Office Supplies,A,1,2011,6,2,4,2011-06,0.03,0.0105
+2010-05-25,High,2,51.21,Regular Air,-27.53,20.98,8.83,Beth Thompson,Corporate,Office Supplies,A,0,2010,5,2,1,2010-05,4.42,0.1724
+2010-05-25,High,20,2195.55,Delivery Truck,-355.94,100.8,60.0,Beth Thompson,Corporate,Furniture,A,0,2010,5,2,1,2010-05,3.0,0.0273
+2009-05-30,Not Specified,30,3482.41,Regular Air,1443.35,120.98,9.07,Susan Vittorini,Home Office,Office Supplies,A,1,2009,5,2,5,2009-05,0.3,0.0026
+2012-08-30,High,43,683.46,Regular Air,-138.82,16.98,12.39,Sylvia Foulston,Corporate,Office Supplies,A,0,2012,8,3,3,2012-08,0.29,0.0181
+2011-12-16,Critical,50,600.22,Regular Air,27.86,12.98,3.14,Joy Bell,Home Office,Office Supplies,A,1,2011,12,4,4,2011-12,0.06,0.0052
+2009-12-09,Not Specified,9,64.0305,Regular Air,3.89,7.99,5.03,Becky Castell,Consumer,Technology,A,1,2009,12,4,2,2009-12,0.56,0.0786
+2012-07-03,Critical,49,8551.544,Regular Air,2763.13,195.99,8.99,Carlos Daly,Corporate,Technology,A,1,2012,7,3,1,2012-07,0.18,0.0011
+2010-12-24,High,2,291.66,Regular Air,-192.92,136.98,24.49,Cari Schnelling,Home Office,Furniture,A,0,2010,12,4,4,2010-12,12.24,0.084
+2011-05-17,Low,5,503.3275,Regular Air,-488.31,125.99,5.63,Jim Radford,Corporate,Technology,A,0,2011,5,2,1,2011-05,1.13,0.0112
+2012-01-11,Not Specified,1,171.71,Delivery Truck,-343.47,115.99,56.14,Allen Rosenblatt,Small Business,Technology,A,0,2012,1,1,2,2012-01,56.14,0.3269
+2011-10-03,Not Specified,39,1326.04,Regular Air,-1129.96,32.48,35.0,Dorothy Badders,Home Office,Office Supplies,A,0,2011,10,4,0,2011-10,0.9,0.0264
+2011-10-03,Not Specified,22,3881.89,Regular Air,-803.52,182.55,69.0,Dorothy Badders,Home Office,Furniture,A,0,2011,10,4,0,2011-10,3.14,0.0178
+2010-03-05,Not Specified,1,17.89,Express Air,10.51,2.88,0.5,Mike Pelletier,Corporate,Office Supplies,A,1,2010,3,1,4,2010-03,0.5,0.0279
+2010-03-05,Not Specified,47,137.18,Regular Air,6.04,2.94,0.96,Mike Pelletier,Corporate,Office Supplies,A,1,2010,3,1,4,2010-03,0.02,0.007
+2011-11-05,High,48,617.26,Regular Air,-37.52,12.28,6.13,Doug Bickford,Small Business,Office Supplies,A,0,2011,11,4,5,2011-11,0.13,0.0099
+2011-11-05,High,45,13104.992,Delivery Truck,5626.42,349.45,60.0,Doug Bickford,Small Business,Furniture,A,1,2011,11,4,5,2011-11,1.33,0.0046
+2009-01-05,High,6,700.73,Delivery Truck,-188.58,120.97,26.3,Susan Vittorini,Home Office,Technology,A,0,2009,1,1,0,2009-01,4.38,0.0375
+2010-11-25,Medium,28,667.55,Regular Air,204.74,21.98,2.87,Andrew Gjertsen,Consumer,Office Supplies,A,1,2010,11,4,3,2010-11,0.1,0.0043
+2011-04-08,High,43,701.46,Express Air,-90.14,15.99,9.4,Muhammed MacIntyre,Small Business,Technology,A,0,2011,4,2,4,2011-04,0.22,0.0134
+2011-04-08,High,19,53.94,Regular Air,-6.53,2.78,1.25,Muhammed MacIntyre,Small Business,Office Supplies,A,0,2011,4,2,4,2011-04,0.07,0.0232
+2011-04-08,High,7,46.94,Regular Air,7.34,6.47,1.22,Muhammed MacIntyre,Small Business,Office Supplies,A,1,2011,4,2,4,2011-04,0.17,0.026
+2011-04-08,High,20,77.99,Regular Air,19.68,3.93,0.99,Muhammed MacIntyre,Small Business,Office Supplies,A,1,2011,4,2,4,2011-04,0.05,0.0127
+2010-03-31,Critical,44,5735.79,Regular Air,828.27,136.98,24.49,Jim Radford,Corporate,Furniture,A,1,2010,3,1,2,2010-03,0.56,0.0043
+2012-03-10,Not Specified,47,186.93,Regular Air,56.44,4.13,0.99,Bryan Davis,Corporate,Office Supplies,A,1,2012,3,1,5,2012-03,0.02,0.0053
+2009-02-20,Medium,41,241.1,Regular Air,-243.24,5.81,8.49,Anthony Johnson,Small Business,Office Supplies,A,0,2009,2,1,4,2009-02,0.21,0.0352
+2009-02-20,Medium,49,491.93,Regular Air,-53.62,9.65,6.22,Anthony Johnson,Small Business,Furniture,A,0,2009,2,1,4,2009-02,0.13,0.0126
+2009-10-01,Critical,10,623.71,Delivery Truck,-213.32,58.14,36.61,Doug Bickford,Small Business,Furniture,A,0,2009,10,4,3,2009-10,3.66,0.0587
+2012-11-01,Not Specified,44,4263.9315,Regular Air,1411.03,110.99,2.5,Carlos Daly,Corporate,Technology,A,1,2012,11,4,3,2012-11,0.06,0.0006
+2011-07-21,High,10,2700.41,Delivery Truck,258.01,279.81,23.19,Don Miller,Home Office,Office Supplies,A,1,2011,7,3,3,2011-07,2.32,0.0086
+2010-11-23,Not Specified,20,1583.06,Regular Air,328.0,78.65,13.99,Don Jones,Corporate,Office Supplies,A,1,2010,11,4,1,2010-11,0.7,0.0088
+2010-02-06,Not Specified,21,756.6,Regular Air,299.59,35.44,4.92,Chad Cunningham,Small Business,Office Supplies,A,1,2010,2,1,5,2010-02,0.23,0.0065
+2011-01-04,Medium,17,207.19,Regular Air,-85.91,11.66,8.99,Ralph Arnett,Consumer,Office Supplies,A,0,2011,1,1,1,2011-01,0.53,0.0434
+2011-01-04,Medium,8,88.0,Regular Air,-6.38,10.48,2.89,Ralph Arnett,Consumer,Office Supplies,A,0,2011,1,1,1,2011-01,0.36,0.0328
+2009-08-02,Medium,31,196.74,Regular Air,-61.59,6.28,5.41,Nicole Hansen,Small Business,Furniture,A,0,2009,8,3,6,2009-08,0.17,0.0275
+2010-06-05,High,21,471.24,Regular Air,115.54,22.98,1.99,Fred Wasserman,Home Office,Technology,A,1,2010,6,2,5,2010-06,0.09,0.0042
+2009-08-02,Critical,1,368.66,Delivery Truck,-165.6,300.98,64.73,Bryan Mills,Corporate,Furniture,A,0,2009,8,3,6,2009-08,64.73,0.1756
+2010-12-28,High,14,2232.06,Regular Air,542.16,155.06,7.07,Ralph Arnett,Consumer,Office Supplies,A,1,2010,12,4,1,2010-12,0.5,0.0032
+2012-10-10,Critical,7,387.17,Regular Air,-204.65,55.94,6.55,Doug Bickford,Corporate,Technology,A,0,2012,10,4,2,2012-10,0.94,0.0169
+2011-04-02,Critical,28,168.57,Express Air,16.65,5.28,2.99,Eugene Barchas,Corporate,Office Supplies,A,1,2011,4,2,5,2011-04,0.11,0.0177
+2009-11-25,Critical,50,413.86,Regular Air,39.29,7.59,4.0,Brad Eason,Small Business,Furniture,A,1,2009,11,4,2,2009-11,0.08,0.0097
+2009-11-25,Critical,31,178.45,Regular Air,-104.96,5.98,4.69,Brad Eason,Small Business,Office Supplies,A,0,2009,11,4,2,2009-11,0.15,0.0263
+2012-04-11,Critical,1,2728.65,Delivery Truck,-5572.39,2550.14,29.7,Dorothy Wardle,Corporate,Technology,A,0,2012,4,2,2,2012-04,29.7,0.0109
+2010-02-16,Low,13,735.54,Regular Air,171.82,55.48,14.3,Ralph Knight,Consumer,Office Supplies,A,1,2010,2,1,1,2010-02,1.1,0.0194
+2010-09-24,High,47,1060.0605,Regular Air,-71.03,28.99,8.59,Sylvia Foulston,Corporate,Technology,A,0,2010,9,3,4,2010-09,0.18,0.0081
+2009-02-21,Low,39,199.39,Express Air,101.13,4.91,0.5,Neola Schneider,Home Office,Office Supplies,A,1,2009,2,1,5,2009-02,0.01,0.0025
+2009-02-21,Low,11,2770.35,Delivery Truck,-202.58,259.71,66.67,Neola Schneider,Home Office,Furniture,A,0,2009,2,1,5,2009-02,6.06,0.0241
+2012-11-11,Critical,32,1882.12,Regular Air,584.15,59.78,10.29,Grant Carroll,Small Business,Office Supplies,A,1,2012,11,4,6,2012-11,0.32,0.0055
+2012-11-11,Critical,44,186.94,Regular Air,85.81,4.13,0.5,Grant Carroll,Small Business,Office Supplies,A,1,2012,11,4,6,2012-11,0.01,0.0027
+2012-11-11,Critical,12,407.2,Regular Air,-8.42,30.98,17.08,Grant Carroll,Small Business,Office Supplies,A,0,2012,11,4,6,2012-11,1.42,0.0419
+2011-10-27,Critical,26,208.6,Regular Air,-56.45,7.38,5.21,Julia West,Consumer,Furniture,A,0,2011,10,4,3,2011-10,0.2,0.025
+2009-12-16,Low,29,778.38,Regular Air,257.32,26.38,5.86,Muhammed MacIntyre,Small Business,Office Supplies,A,1,2009,12,4,2,2009-12,0.2,0.0075
+2010-05-07,Critical,24,60.36,Regular Air,-119.62,2.16,6.05,Susan Vittorini,Corporate,Office Supplies,A,0,2010,5,2,4,2010-05,0.25,0.1002
+2011-01-08,Medium,36,1936.3,Regular Air,278.12,50.98,13.66,Sylvia Foulston,Corporate,Office Supplies,A,1,2011,1,1,5,2011-01,0.38,0.0071
+2012-07-09,High,4,14.23,Regular Air,-4.43,2.08,5.33,Doug Bickford,Corporate,Furniture,A,0,2012,7,3,0,2012-07,1.33,0.3746
+2012-07-09,High,39,272.07,Regular Air,-206.46,6.48,9.54,Doug Bickford,Corporate,Office Supplies,A,0,2012,7,3,0,2012-07,0.24,0.0351
+2012-07-09,High,5,325.43,Express Air,-76.11,64.98,6.88,Doug Bickford,Corporate,Office Supplies,A,0,2012,7,3,0,2012-07,1.38,0.0211
+2009-03-09,High,42,843.53,Regular Air,268.32,19.23,6.15,Dorothy Badders,Home Office,Furniture,A,1,2009,3,1,0,2009-03,0.15,0.0073
+2011-12-30,High,23,6641.14,Delivery Truck,673.77,300.98,64.73,Henry Goldwyn,Small Business,Furniture,A,1,2011,12,4,4,2011-12,2.81,0.0097
+2011-12-30,High,21,10469.03,Delivery Truck,2608.72,500.98,26.0,Henry Goldwyn,Small Business,Furniture,A,1,2011,12,4,4,2011-12,1.24,0.0025
+2011-12-30,High,18,835.55,Regular Air,171.59,45.19,1.99,Henry Goldwyn,Small Business,Technology,A,1,2011,12,4,4,2011-12,0.11,0.0024
+2009-03-29,Not Specified,18,215.93,Regular Air,-41.87,11.97,5.81,Grant Carroll,Small Business,Office Supplies,A,0,2009,3,1,6,2009-03,0.32,0.0269
+2011-02-13,Critical,30,140.24,Regular Air,32.87,4.55,1.49,Chad Cunningham,Small Business,Office Supplies,A,1,2011,2,1,6,2011-02,0.05,0.0106
+2011-01-28,Not Specified,10,266.94,Regular Air,19.2,28.48,1.99,Beth Thompson,Corporate,Technology,A,1,2011,1,1,4,2011-01,0.2,0.0075
+2011-01-28,Not Specified,26,113.85,Regular Air,-93.93,4.14,6.6,Beth Thompson,Corporate,Furniture,A,0,2011,1,1,4,2011-01,0.25,0.058
+2012-09-08,Medium,7,83.81,Regular Air,21.92,12.53,0.5,Andrew Gjertsen,Consumer,Office Supplies,A,1,2012,9,3,5,2012-09,0.07,0.006
+2012-09-08,Medium,36,218.81,Regular Air,7.45,5.85,2.27,Andrew Gjertsen,Consumer,Office Supplies,A,1,2012,9,3,5,2012-09,0.06,0.0104
+2009-05-18,Critical,42,9502.736,Delivery Truck,-945.56,280.98,81.98,Sylvia Foulston,Corporate,Furniture,A,0,2009,5,2,0,2009-05,1.95,0.0086
+2012-07-29,Low,32,5686.25,Regular Air,2109.21,177.98,0.99,Michelle Lonsdale,Corporate,Office Supplies,A,1,2012,7,3,6,2012-07,0.03,0.0002
+2012-07-29,Low,16,797.24,Delivery Truck,11.46,50.98,14.19,Michelle Lonsdale,Corporate,Furniture,A,1,2012,7,3,6,2012-07,0.89,0.0178
+2012-04-22,Critical,20,963.3,Express Air,367.12,48.04,7.23,Cari Schnelling,Small Business,Office Supplies,A,1,2012,4,2,6,2012-04,0.36,0.0075
+2012-07-16,Not Specified,34,94.56,Regular Air,37.73,2.61,0.5,Henry Goldwyn,Small Business,Office Supplies,A,1,2012,7,3,0,2012-07,0.01,0.0053
+2012-09-22,High,45,719.55,Regular Air,-110.93,15.99,9.4,Edward Hooks,Consumer,Technology,A,0,2012,9,3,5,2012-09,0.21,0.0131
+2010-05-20,Critical,36,283.21,Regular Air,-196.06,8.04,8.94,Brendan Dodson,Corporate,Office Supplies,A,0,2010,5,2,3,2010-05,0.25,0.0316
+2010-05-20,Critical,18,45.8,Regular Air,-52.92,2.23,4.57,Brendan Dodson,Corporate,Furniture,A,0,2010,5,2,3,2010-05,0.25,0.0998
+2009-12-02,High,42,557.85,Regular Air,89.45,12.95,4.98,Harold Engle,Consumer,Office Supplies,A,1,2009,12,4,2,2009-12,0.12,0.0089
+2010-06-01,Medium,37,4261.94,Delivery Truck,4.15,115.99,56.14,Roy French,Consumer,Technology,A,1,2010,6,2,1,2010-06,1.52,0.0132
+2010-09-25,Medium,38,2071.3395,Regular Air,324.93,65.99,8.99,Helen Abelman,Home Office,Technology,A,1,2010,9,3,5,2010-09,0.24,0.0043
+2012-11-19,Medium,14,222.91,Regular Air,20.21,15.98,4.0,Guy Armstrong,Corporate,Technology,A,1,2012,11,4,0,2012-11,0.29,0.0179
+2010-12-14,Low,12,1634.98,Regular Air,-120.45,140.85,19.99,Jennifer Braxton,Small Business,Office Supplies,A,0,2010,12,4,1,2010-12,1.67,0.0122
+2012-10-25,Low,50,204.11,Regular Air,28.71,4.28,0.94,Giulietta Baptist,Home Office,Office Supplies,A,1,2012,10,4,3,2012-10,0.02,0.0046
+2010-06-17,High,18,1038.4,Regular Air,112.36,56.96,13.22,Jack Lebron,Corporate,Office Supplies,A,1,2010,6,2,3,2010-06,0.73,0.0127
+2010-06-17,High,1,305.82,Regular Air,-232.24,279.48,35.0,Jack Lebron,Corporate,Office Supplies,A,0,2010,6,2,3,2010-06,35.0,0.1144
+2012-06-29,Low,64,7441.29,Regular Air,2665.4,165.98,19.99,Erica Bern,Corporate,Office Supplies,A,1,2012,6,2,4,2012-06,0.31,0.0027
+2009-02-01,Low,17,55.45,Regular Air,21.42,3.08,0.5,Erica Bern,Corporate,Office Supplies,A,1,2009,2,1,6,2009-02,0.03,0.009
+2011-08-25,Critical,37,4896.93,Express Air,1467.82,128.24,12.65,Helen Abelman,Home Office,Furniture,A,1,2011,8,3,3,2011-08,0.34,0.0026
+2009-06-20,Low,42,433.68,Regular Air,44.1,10.98,4.8,Guy Armstrong,Corporate,Office Supplies,A,1,2009,6,2,5,2009-06,0.11,0.0111
+2010-05-03,Critical,24,717.29,Regular Air,191.29,29.89,1.99,Helen Abelman,Home Office,Technology,A,1,2010,5,2,0,2010-05,0.08,0.0028
+2009-04-07,Low,36,1423.35,Regular Air,-580.32,40.48,19.99,Christopher Schild,Corporate,Technology,A,0,2009,4,2,1,2009-04,0.56,0.014
+2011-09-02,Low,30,932.892,Regular Air,458.98,35.99,0.99,Roy French,Consumer,Technology,A,1,2011,9,3,4,2011-09,0.03,0.0011
+2011-04-14,Medium,36,5977.63,Delivery Truck,-86.68,180.98,55.24,Roy French,Consumer,Office Supplies,A,0,2011,4,2,3,2011-04,1.53,0.0092
+2011-02-13,Not Specified,6,906.02,Delivery Truck,-382.38,150.98,66.27,Jennifer Braxton,Small Business,Furniture,A,0,2011,2,1,6,2011-02,11.04,0.0731
+2011-02-13,Not Specified,43,170.88,Regular Air,-149.09,3.81,5.44,Jennifer Braxton,Small Business,Office Supplies,A,0,2011,2,1,6,2011-02,0.13,0.0318
+2011-07-30,Medium,40,434.62,Regular Air,-68.98,11.5,7.19,Joy Smith,Corporate,Office Supplies,A,0,2011,7,3,5,2011-07,0.18,0.0165
+2010-08-10,Medium,38,871.25,Regular Air,-14.31,22.99,8.99,Evan Minnotte,Corporate,Office Supplies,A,0,2010,8,3,1,2010-08,0.24,0.0103
+2010-08-10,Medium,46,537.87,Regular Air,-162.24,11.66,7.95,Evan Minnotte,Corporate,Office Supplies,A,0,2010,8,3,1,2010-08,0.17,0.0148
+2009-04-06,High,55,608.21,Regular Air,-175.13,12.88,4.59,Jenna Caffey,Consumer,Office Supplies,A,0,2009,4,2,0,2009-04,0.08,0.0075
+2010-10-26,High,17,285.84,Regular Air,-27.26,15.28,10.91,Harold Engle,Home Office,Office Supplies,A,0,2010,10,4,1,2010-10,0.64,0.0382
+2010-10-26,High,66,12450.48,Delivery Truck,3030.16,300.98,54.92,Harold Engle,Home Office,Furniture,A,1,2010,10,4,1,2010-10,0.83,0.0044
+2012-05-26,Low,39,2083.0525,Express Air,354.96,65.99,5.99,Harold Engle,Home Office,Technology,A,1,2012,5,2,5,2012-05,0.15,0.0029
+2012-05-26,Low,76,233.28,Regular Air,112.35,4.91,0.5,Harold Engle,Home Office,Office Supplies,A,1,2012,5,2,5,2012-05,0.01,0.0021
+2012-05-26,Low,66,47.01,Regular Air,-19.32,27.75,19.99,Harold Engle,Home Office,Office Supplies,A,0,2012,5,2,5,2012-05,0.3,0.4252
+2012-09-10,Low,32,3245.73,Regular Air,569.57,110.98,13.99,Hilary Holden,Corporate,Furniture,A,1,2012,9,3,0,2012-09,0.44,0.0043
+2012-09-10,Low,27,63.02,Regular Air,-119.66,2.18,5.0,Hilary Holden,Corporate,Office Supplies,A,0,2012,9,3,0,2012-09,0.19,0.0793
+2012-09-10,Low,9,6420.87,Regular Air,-690.21,699.99,24.49,Hilary Holden,Corporate,Technology,A,0,2012,9,3,0,2012-09,2.72,0.0038
+2012-09-10,Low,25,2407.693,Regular Air,424.14,110.99,8.99,Hilary Holden,Corporate,Technology,A,1,2012,9,3,0,2012-09,0.36,0.0037
+2011-03-16,Low,72,109.49,Regular Air,26.09,3.38,0.85,Christopher Schild,Corporate,Office Supplies,A,1,2011,3,1,2,2011-03,0.01,0.0078
+2011-06-18,High,31,283.17,Regular Air,119.64,8.74,1.39,Harold Engle,Home Office,Office Supplies,A,1,2011,6,2,5,2011-06,0.04,0.0049
+2011-01-11,Low,6,17.0,Regular Air,-4.61,2.78,1.49,Greg Guthrie,Corporate,Office Supplies,A,0,2011,1,1,1,2011-01,0.25,0.0876
+2011-01-11,Low,15,67.41,Regular Air,-49.6,4.14,6.6,Greg Guthrie,Corporate,Furniture,A,0,2011,1,1,1,2011-01,0.44,0.0979
+2011-01-11,Low,19,130.67,Regular Air,-77.18,6.48,7.86,Greg Guthrie,Corporate,Office Supplies,A,0,2011,1,1,1,2011-01,0.41,0.0602
+2011-01-11,Low,21,77.62,Regular Air,-50.88,3.28,3.97,Greg Guthrie,Corporate,Office Supplies,A,0,2011,1,1,1,2011-01,0.19,0.0511
+2009-03-05,Not Specified,45,440.39,Regular Air,186.64,9.78,1.39,Guy Armstrong,Corporate,Office Supplies,A,1,2009,3,1,3,2009-03,0.03,0.0032
+2009-03-05,Not Specified,27,96.99,Express Air,-66.35,3.28,3.97,Guy Armstrong,Corporate,Office Supplies,A,0,2009,3,1,3,2009-03,0.15,0.0409
+2009-12-14,Low,59,590.43,Regular Air,82.59,12.95,4.98,Joy Smith,Consumer,Office Supplies,A,1,2009,12,4,0,2009-12,0.08,0.0084
+2009-12-14,Low,8,216.33,Regular Air,-17.37,24.92,12.98,Joy Smith,Consumer,Office Supplies,A,0,2009,12,4,0,2009-12,1.62,0.06
+2009-02-02,Not Specified,38,3152.75,Regular Air,1166.4,83.1,6.13,Erica Bern,Corporate,Technology,A,1,2009,2,1,0,2009-02,0.16,0.0019
+2009-02-02,Not Specified,42,3609.88,Regular Air,-1396.22,90.98,56.2,Erica Bern,Corporate,Furniture,A,0,2009,2,1,0,2009-02,1.34,0.0156
+2009-08-26,Low,26,188.05,Express Air,-21.41,6.48,5.16,Dan Reichenbach,Corporate,Office Supplies,A,0,2009,8,3,2,2009-08,0.2,0.0274
+2012-03-06,Low,42,1681.6,Regular Air,167.37,39.99,10.25,Erica Bern,Corporate,Technology,A,1,2012,3,1,1,2012-03,0.24,0.0061
+2009-11-19,High,17,5203.9,Delivery Truck,636.2,300.98,64.73,Guy Armstrong,Corporate,Furniture,A,1,2009,11,4,3,2009-11,3.81,0.0124
+2009-11-19,High,33,744.12,Delivery Truck,-1163.21,20.98,45.0,Guy Armstrong,Corporate,Office Supplies,A,0,2009,11,4,3,2009-11,1.36,0.0605
+2010-07-24,Low,48,293.3,Express Air,-193.48,5.98,7.5,Evan Minnotte,Corporate,Office Supplies,A,0,2010,7,3,5,2010-07,0.16,0.0256
+2010-08-04,Medium,9,50.93,Regular Air,-34.98,5.28,6.26,Joy Smith,Consumer,Office Supplies,A,0,2010,8,3,2,2010-08,0.7,0.1229
+2010-08-04,Medium,44,792.8,Regular Air,26.27,18.97,9.54,Joy Smith,Consumer,Office Supplies,A,1,2010,8,3,2,2010-08,0.22,0.012
+2010-08-04,Medium,14,782.4505,Regular Air,-11.4,65.99,3.99,Joy Smith,Consumer,Technology,A,0,2010,8,3,2,2010-08,0.29,0.0051
+2011-03-07,Medium,44,226.18,Regular Air,-115.54,4.82,5.72,Paul Gonzalez,Corporate,Furniture,A,0,2011,3,1,0,2011-03,0.13,0.0253
+2011-10-20,Not Specified,17,1856.9695,Regular Air,176.87,125.99,8.08,Filia McAdams,Small Business,Technology,A,1,2011,10,4,3,2011-10,0.48,0.0044
+2009-08-04,Not Specified,43,241.19,Regular Air,-103.65,5.78,5.67,Joy Smith,Consumer,Office Supplies,A,0,2009,8,3,1,2009-08,0.13,0.0235
+2010-04-28,Low,30,4177.52,Delivery Truck,-443.78,140.98,36.09,Greg Guthrie,Corporate,Furniture,A,0,2010,4,2,2,2010-04,1.2,0.0086
+2010-04-28,Low,26,3351.08,Delivery Truck,-1086.43,122.99,70.2,Greg Guthrie,Corporate,Furniture,A,0,2010,4,2,2,2010-04,2.7,0.0209
+2009-04-22,Low,29,159.11,Regular Air,64.01,5.43,0.95,Joy Smith,Consumer,Office Supplies,A,1,2009,4,2,2,2009-04,0.03,0.006
+2011-12-04,High,44,1127.81,Regular Air,425.08,28.48,1.99,Joy Smith,Corporate,Technology,A,1,2011,12,4,6,2011-12,0.05,0.0018
+2010-08-06,Not Specified,27,9293.82,Regular Air,2437.17,363.25,19.99,Greg Guthrie,Small Business,Office Supplies,A,1,2010,8,3,4,2010-08,0.74,0.0022
+2010-08-06,Not Specified,27,80.79,Regular Air,12.58,2.88,0.7,Greg Guthrie,Small Business,Office Supplies,A,1,2010,8,3,4,2010-08,0.03,0.0087
+2011-09-15,Low,18,925.03,Regular Air,-3.68,49.99,19.99,Jack Lebron,Corporate,Technology,A,0,2011,9,3,3,2011-09,1.11,0.0216
+2009-10-02,Not Specified,27,566.12,Regular Air,-19.33,19.99,11.17,Joy Smith,Corporate,Furniture,A,0,2009,10,4,4,2009-10,0.41,0.0197
+2009-03-01,Critical,8,327.61,Regular Air,54.9,40.98,7.47,Evan Minnotte,Corporate,Office Supplies,A,1,2009,3,1,6,2009-03,0.93,0.0228
+2009-06-24,Not Specified,16,178.4,Regular Air,20.08,10.64,5.16,Chuck Magee,Corporate,Furniture,A,1,2009,6,2,2,2009-06,0.32,0.0289
+2009-06-24,Not Specified,40,115.01,Express Air,5.81,2.78,1.34,Chuck Magee,Corporate,Office Supplies,A,1,2009,6,2,2,2009-06,0.03,0.0117
+2011-01-16,Medium,29,181.83,Regular Air,-43.36,5.98,5.2,Filia McAdams,Small Business,Office Supplies,A,0,2011,1,1,6,2011-01,0.18,0.0286
+2012-01-20,Low,38,952.47,Regular Air,270.69,23.99,6.3,Jack Lebron,Corporate,Technology,A,1,2012,1,1,4,2012-01,0.17,0.0066
+2012-01-20,Low,3,171.9635,Regular Air,-296.37,65.99,8.99,Jack Lebron,Corporate,Technology,A,0,2012,1,1,4,2012-01,3.0,0.0523
+2010-05-21,Critical,5,2543.95,Regular Air,-1011.32,499.99,24.49,Jack Lebron,Corporate,Technology,A,0,2010,5,2,4,2010-05,4.9,0.0096
+2012-03-15,Not Specified,3,317.95,Delivery Truck,-144.43,100.98,26.22,Harold Engle,Consumer,Furniture,A,0,2012,3,1,3,2012-03,8.74,0.0825
+2012-03-15,Not Specified,8,435.29,Regular Air,122.41,51.65,18.45,Harold Engle,Consumer,Furniture,A,1,2012,3,1,3,2012-03,2.31,0.0424
+2011-08-07,Medium,34,937.04,Regular Air,391.6,28.53,1.49,Jack Lebron,Corporate,Office Supplies,A,1,2011,8,3,6,2011-08,0.04,0.0016
+2011-08-07,Medium,17,1616.64,Regular Air,26.94,99.99,19.99,Jack Lebron,Corporate,Technology,A,1,2011,8,3,6,2011-08,1.18,0.0124
+2011-05-21,High,18,404.3,Regular Air,-27.34,21.38,8.99,Frank Atkinson,Corporate,Office Supplies,A,0,2011,5,2,5,2011-05,0.5,0.0222
+2011-05-21,High,43,11674.968,Delivery Truck,715.18,348.21,84.84,Frank Atkinson,Corporate,Furniture,A,1,2011,5,2,5,2011-05,1.97,0.0073
+2010-10-11,High,24,1482.81,Regular Air,-678.63,60.98,49.0,Jack Lebron,Corporate,Office Supplies,A,0,2010,10,4,0,2010-10,2.04,0.033
+2010-10-11,High,23,6693.28,Regular Air,40.32,290.98,69.0,Jack Lebron,Corporate,Furniture,A,1,2010,10,4,0,2010-10,3.0,0.0103
+2010-12-22,Not Specified,10,309.3,Express Air,-77.89,30.98,6.5,Evan Minnotte,Corporate,Technology,A,0,2010,12,4,2,2010-12,0.65,0.021
+2009-07-03,Low,1,444.52,Regular Air,161.13,10.06,2.06,Joy Smith,Consumer,Office Supplies,A,1,2009,7,3,4,2009-07,2.06,0.0046
+2009-05-27,Critical,1,742.21,Regular Air,122.21,14.2,5.3,Dan Reichenbach,Corporate,Furniture,A,1,2009,5,2,2,2009-05,5.3,0.0071
+2011-06-20,High,15,896.1805,Express Air,82.04,65.99,5.26,Jack Lebron,Corporate,Technology,A,1,2011,6,2,0,2011-06,0.35,0.0059
+2012-08-22,High,19,120.56,Regular Air,-79.35,5.98,7.5,Frank Atkinson,Corporate,Office Supplies,A,0,2012,8,3,2,2012-08,0.39,0.0622
+2012-08-22,High,46,2640.6865,Express Air,751.38,65.99,5.92,Frank Atkinson,Corporate,Technology,A,1,2012,8,3,2,2012-08,0.13,0.0022
+2011-01-26,Critical,15,8662.34,Delivery Truck,-704.66,549.99,49.0,Erica Bern,Corporate,Technology,A,0,2011,1,1,2,2011-01,3.27,0.0057
+2012-12-03,Critical,24,1689.97,Delivery Truck,-564.74,68.81,60.0,Jack Lebron,Corporate,Office Supplies,A,0,2012,12,4,0,2012-12,2.5,0.0355
+2010-09-06,Not Specified,20,112.03,Regular Air,-57.99,5.18,5.74,Filia McAdams,Small Business,Office Supplies,A,0,2010,9,3,0,2010-09,0.29,0.0512
+2011-03-29,Low,6,2528.49,Express Air,580.15,420.98,19.99,Jack Lebron,Corporate,Office Supplies,A,1,2011,3,1,1,2011-03,3.33,0.0079
+2011-03-29,Low,42,1146.11,Regular Air,330.63,29.18,8.55,Jack Lebron,Corporate,Furniture,A,1,2011,3,1,1,2011-03,0.2,0.0075
+2010-08-20,High,16,102.5,Regular Air,13.84,6.68,1.5,Giulietta Baptist,Home Office,Office Supplies,A,1,2010,8,3,4,2010-08,0.09,0.0146
+2010-12-02,Low,36,7783.36,Express Air,3506.24,225.04,11.79,Joy Smith,Consumer,Office Supplies,A,1,2010,12,4,3,2010-12,0.33,0.0015
+2010-12-02,Low,21,61.76,Regular Air,4.34,2.84,0.93,Joy Smith,Consumer,Office Supplies,A,1,2010,12,4,3,2010-12,0.04,0.0151
+2010-12-02,Low,36,1280.34,Delivery Truck,-1048.25,31.76,45.51,Joy Smith,Consumer,Furniture,A,0,2010,12,4,3,2010-12,1.26,0.0355
+2011-03-26,Critical,12,76.61,Regular Air,-31.83,6.28,5.29,Greg Guthrie,Corporate,Furniture,A,0,2011,3,1,5,2011-03,0.44,0.0691
+2009-12-19,Critical,38,1483.44,Regular Air,439.77,39.48,1.99,Carlos Soltero,Consumer,Technology,A,1,2009,12,4,5,2009-12,0.05,0.0013
+2009-12-19,Critical,39,145.68,Regular Air,12.0,3.7,1.61,Carlos Soltero,Consumer,Furniture,A,1,2009,12,4,5,2009-12,0.04,0.0111
+2011-04-29,Low,45,500.48,Regular Air,-48.2,11.29,5.03,Harold Engle,Home Office,Office Supplies,A,0,2011,4,2,4,2011-04,0.11,0.0101
+2010-10-24,High,50,8221.2935,Regular Air,2342.21,195.99,4.2,Erica Bern,Corporate,Technology,A,1,2010,10,4,6,2010-10,0.08,0.0005
+2010-10-24,High,7,1158.26,Regular Air,170.08,172.99,19.99,Erica Bern,Corporate,Office Supplies,A,1,2010,10,4,6,2010-10,2.86,0.0173
+2010-05-12,High,9,298.52,Regular Air,73.19,30.98,5.76,Hilary Holden,Corporate,Office Supplies,A,1,2010,5,2,2,2010-05,0.64,0.0193
+2010-05-12,High,34,667.35,Regular Air,80.92,19.98,8.68,Hilary Holden,Corporate,Office Supplies,A,1,2010,5,2,2,2010-05,0.26,0.013
+2010-04-11,Medium,31,3206.965,Regular Air,575.33,125.99,7.69,Jack Lebron,Corporate,Technology,A,1,2010,4,2,6,2010-04,0.25,0.0024
+2009-01-24,Low,30,6654.39,Regular Air,1151.69,238.4,24.49,Filia McAdams,Small Business,Furniture,A,1,2009,1,1,5,2009-01,0.82,0.0037
+2009-01-24,Low,21,4429.69,Express Air,983.55,199.99,24.49,Filia McAdams,Small Business,Technology,A,1,2009,1,1,5,2009-01,1.17,0.0055
+2010-11-17,High,42,239.35,Regular Air,78.96,5.68,1.39,Greg Guthrie,Small Business,Office Supplies,A,1,2010,11,4,2,2010-11,0.03,0.0058
+2010-11-17,High,2,684.66,Express Air,35.09,19.98,10.49,Greg Guthrie,Small Business,Furniture,A,1,2010,11,4,2,2010-11,5.24,0.0153
+2010-09-29,High,28,2531.35,Delivery Truck,415.55,90.97,28.0,Harold Engle,Consumer,Technology,A,1,2010,9,3,2,2010-09,1.0,0.0111
+2010-08-03,Critical,15,22.45,Regular Air,0.78,1.48,0.7,Philip Brown,Home Office,Office Supplies,A,1,2010,8,3,1,2010-08,0.05,0.0312
+2011-06-13,Medium,44,7765.13,Delivery Truck,433.63,180.98,55.24,Helen Abelman,Home Office,Office Supplies,A,1,2011,6,2,0,2011-06,1.26,0.0071
+2010-05-05,Critical,44,2435.32,Regular Air,650.56,60.22,3.5,Hilary Holden,Corporate,Office Supplies,A,1,2010,5,2,2,2010-05,0.08,0.0014
+2010-05-05,Critical,21,4242.76,Regular Air,340.88,199.99,24.49,Hilary Holden,Corporate,Technology,A,1,2010,5,2,2,2010-05,1.17,0.0058
+2010-08-30,High,1,14.4,Regular Air,-7.39,12.22,2.85,Christopher Schild,Corporate,Furniture,A,0,2010,8,3,0,2010-08,2.85,0.1979
+2012-10-30,High,16,92.06,Regular Air,5.66,5.98,2.5,Carlos Soltero,Consumer,Office Supplies,A,1,2012,10,4,1,2012-10,0.16,0.0272
+2012-10-30,High,33,199.62,Regular Air,42.34,5.84,1.2,Carlos Soltero,Consumer,Office Supplies,A,1,2012,10,4,1,2012-10,0.04,0.006
+2009-07-15,High,40,196.5,Regular Air,-99.76,4.91,4.97,Erica Bern,Corporate,Office Supplies,A,0,2009,7,3,2,2009-07,0.12,0.0253
+2009-07-15,High,1,3672.89,Regular Air,-3061.82,3499.99,24.49,Erica Bern,Corporate,Technology,A,0,2009,7,3,2,2009-07,24.49,0.0067
+2009-07-15,High,8,46.97,Regular Air,-0.01,5.84,1.2,Erica Bern,Corporate,Office Supplies,A,0,2009,7,3,2,2009-07,0.15,0.0255
+2012-08-07,Low,3,20333.816,Delivery Truck,-1430.45,550.98,147.12,Erica Bern,Small Business,Furniture,A,0,2012,8,3,1,2012-08,49.04,0.0072
+2009-02-01,Critical,37,1697.44,Regular Air,523.43,45.19,1.99,Joy Smith,Corporate,Technology,A,1,2009,2,1,6,2009-02,0.05,0.0012
+2012-07-07,Medium,15,572.4325,Regular Air,-19.44,45.99,4.99,Joy Smith,Corporate,Technology,A,0,2012,7,3,5,2012-07,0.33,0.0087
+2009-03-27,Medium,41,322.03,Regular Air,-82.83,8.12,2.83,Christopher Schild,Corporate,Technology,A,0,2009,3,1,4,2009-03,0.07,0.0088
+2009-03-27,Medium,49,2470.84,Regular Air,25.04,51.65,18.45,Christopher Schild,Corporate,Furniture,A,1,2009,3,1,4,2009-03,0.38,0.0075
+2009-03-27,Medium,2,15.26,Regular Air,-7.51,6.68,1.5,Christopher Schild,Corporate,Office Supplies,A,0,2009,3,1,4,2009-03,0.75,0.0983
+2009-03-27,Medium,39,5250.6625,Regular Air,930.99,175.99,8.99,Christopher Schild,Corporate,Technology,A,1,2009,3,1,4,2009-03,0.23,0.0017
+2010-09-23,Not Specified,23,10791.38,Regular Air,-234.79,499.99,24.49,Evan Minnotte,Corporate,Technology,A,0,2010,9,3,3,2010-09,1.06,0.0023
+2011-03-28,Low,1,26.68,Regular Air,-10.74,22.23,3.63,Christopher Schild,Corporate,Furniture,A,0,2011,3,1,0,2011-03,3.63,0.1361
+2009-07-01,Low,27,123.46,Regular Air,26.66,4.84,0.71,Greg Guthrie,Small Business,Office Supplies,A,1,2009,7,3,2,2009-07,0.03,0.0058
+2010-12-11,High,28,588.54,Regular Air,-30.72,20.15,8.99,Harold Engle,Consumer,Office Supplies,A,0,2010,12,4,5,2010-12,0.32,0.0153
+2009-09-16,High,44,284.38,Regular Air,-62.43,6.48,5.19,Philip Brown,Home Office,Office Supplies,A,0,2009,9,3,2,2009-09,0.12,0.0183
+2011-02-04,High,49,165.51,Regular Air,-269.91,3.52,6.83,Carlos Soltero,Consumer,Office Supplies,A,0,2011,2,1,4,2011-02,0.14,0.0413
+2010-09-11,Medium,29,2046.81,Regular Air,469.28,67.28,19.99,Jennifer Braxton,Small Business,Office Supplies,A,1,2010,9,3,5,2010-09,0.69,0.0098
+2010-03-02,Medium,10,28.81,Regular Air,7.15,2.89,0.49,Dan Reichenbach,Corporate,Office Supplies,A,1,2010,3,1,1,2010-03,0.05,0.017
+2010-03-02,Medium,35,1445.6,Regular Air,126.03,41.32,8.66,Dan Reichenbach,Corporate,Furniture,A,1,2010,3,1,1,2010-03,0.25,0.006
+2010-03-02,Medium,4,119.03,Regular Air,29.62,8.95,2.01,Dan Reichenbach,Corporate,Office Supplies,A,1,2010,3,1,1,2010-03,0.5,0.0169
+2009-09-15,Critical,2,34.88,Regular Air,-22.12,13.79,8.78,Carlos Soltero,Consumer,Furniture,A,0,2009,9,3,1,2009-09,4.39,0.2517
+2010-12-30,Medium,13,1272.83,Regular Air,250.47,100.98,7.18,Carlos Soltero,Small Business,Technology,A,1,2010,12,4,3,2010-12,0.55,0.0056
+2010-12-30,Medium,25,165.36,Express Air,-94.79,6.48,7.49,Carlos Soltero,Small Business,Office Supplies,A,0,2010,12,4,3,2010-12,0.3,0.0453
+2011-07-25,Medium,9,883.37,Regular Air,51.3,100.98,7.18,Giulietta Baptist,Home Office,Technology,A,1,2011,7,3,0,2011-07,0.8,0.0081
+2009-12-23,Low,38,23255.61,Regular Air,-734.33,599.99,24.49,Jack Lebron,Corporate,Technology,A,0,2009,12,4,2,2009-12,0.64,0.0011
+2012-10-31,High,8,23.19,Regular Air,-13.27,2.6,2.4,Guy Armstrong,Corporate,Office Supplies,A,0,2012,10,4,2,2012-10,0.3,0.1035
+2009-12-22,Critical,31,639.19,Regular Air,274.9,20.98,1.49,Hilary Holden,Corporate,Office Supplies,A,1,2009,12,4,1,2009-12,0.05,0.0023
+2012-04-14,High,4,62.45,Regular Air,-141.76,3.48,49.0,Jack Lebron,Corporate,Office Supplies,A,0,2012,4,2,5,2012-04,12.25,0.7846
+2011-05-13,Medium,42,152.55,Regular Air,-20.27,3.69,2.5,Erica Bern,Corporate,Office Supplies,A,0,2011,5,2,4,2011-05,0.06,0.0164
+2011-05-13,Medium,36,152.96,Regular Air,-123.87,4.28,5.74,Erica Bern,Corporate,Office Supplies,A,0,2011,5,2,4,2011-05,0.16,0.0375
+2011-12-07,Critical,19,7608.88,Express Air,3049.45,420.98,19.99,Harold Engle,Home Office,Office Supplies,A,1,2011,12,4,2,2011-12,1.05,0.0026
+2011-12-07,Critical,50,1270.03,Regular Air,221.81,26.48,6.93,Harold Engle,Home Office,Furniture,A,1,2011,12,4,2,2011-12,0.14,0.0055
+2010-12-04,Not Specified,18,101.34,Regular Air,26.11,5.68,1.39,Jim Sink,Corporate,Office Supplies,A,1,2010,12,4,5,2010-12,0.08,0.0137
+2009-11-24,High,26,393.59,Regular Air,-8.08,15.01,8.4,Jennifer Braxton,Small Business,Office Supplies,A,0,2009,11,4,1,2009-11,0.32,0.0213
+2009-11-24,High,14,551.18,Regular Air,-326.97,40.48,19.99,Jennifer Braxton,Small Business,Technology,A,0,2009,11,4,1,2009-11,1.43,0.0363
+2009-11-24,High,1,18.73,Regular Air,-6.68,12.28,6.13,Jennifer Braxton,Small Business,Office Supplies,A,0,2009,11,4,1,2009-11,6.13,0.3273
+2011-09-13,Not Specified,32,294.04,Regular Air,-5.53,8.85,5.6,Joy Smith,Corporate,Office Supplies,A,0,2011,9,3,1,2011-09,0.18,0.019
+2011-09-13,Not Specified,-2,2022.65,Delivery Truck,-157.63,110.98,30.0,Joy Smith,Corporate,Furniture,A,0,2011,9,3,1,2011-09,-15.0,0.0148
+2010-12-03,Not Specified,24,2289.92,Regular Air,1037.55,104.85,4.65,Harold Engle,Consumer,Office Supplies,A,1,2010,12,4,4,2010-12,0.19,0.002
+2011-12-18,Low,36,1773.86,Delivery Truck,133.3,50.98,14.19,Philip Brown,Corporate,Furniture,A,1,2011,12,4,6,2011-12,0.39,0.008
+2011-12-18,Low,35,543.22,Regular Air,68.44,14.58,7.4,Philip Brown,Corporate,Furniture,A,1,2011,12,4,6,2011-12,0.21,0.0136
+2011-12-18,Low,0,813.9,Regular Air,256.66,45.98,4.8,Philip Brown,Corporate,Furniture,A,1,2011,12,4,6,2011-12,4.8,0.0059
+2012-08-09,Low,44,865.27,Regular Air,11.55,19.98,4.0,Giulietta Baptist,Home Office,Technology,A,1,2012,8,3,3,2012-08,0.09,0.0046
+2012-08-09,Low,41,429.28,Regular Air,-168.95,10.97,6.5,Giulietta Baptist,Home Office,Technology,A,0,2012,8,3,3,2012-08,0.16,0.0151
+2010-08-24,Critical,31,341.71,Regular Air,32.19,10.98,5.14,Paul Gonzalez,Corporate,Office Supplies,A,1,2010,8,3,1,2010-08,0.17,0.015
+2011-05-22,High,46,648.26,Regular Air,30.48,14.27,7.27,Logan Haushalter,Corporate,Office Supplies,A,1,2011,5,2,6,2011-05,0.16,0.0112
+2011-05-22,High,46,410.43,Regular Air,-54.58,9.49,5.76,Logan Haushalter,Corporate,Technology,A,0,2011,5,2,6,2011-05,0.13,0.014
+2012-11-18,Critical,43,9750.55,Delivery Truck,1061.61,216.6,64.2,Filia McAdams,Small Business,Furniture,A,1,2012,11,4,6,2012-11,1.49,0.0066
+2012-06-28,High,39,835.55,Regular Air,326.43,22.23,5.08,Carlos Soltero,Consumer,Furniture,A,1,2012,6,2,3,2012-06,0.13,0.0061
+2012-06-28,High,90,1799.6115,Regular Air,557.6,55.99,1.25,Carlos Soltero,Consumer,Technology,A,1,2012,6,2,3,2012-06,0.01,0.0007
+2009-02-04,Low,88,1441.57,Express Air,475.26,29.89,1.99,Erica Bern,Corporate,Technology,A,1,2009,2,1,2,2009-02,0.02,0.0014
+2009-02-04,Low,20,173.09,Regular Air,-6.71,8.34,4.82,Erica Bern,Corporate,Office Supplies,A,0,2009,2,1,2,2009-02,0.24,0.0278
+2009-12-25,Not Specified,89,5016.25,Delivery Truck,-189.35,124.49,51.94,Greg Guthrie,Small Business,Furniture,A,0,2009,12,4,4,2009-12,0.58,0.0104
+2011-09-26,High,47,945.03,Regular Air,267.64,19.98,5.97,Dan Reichenbach,Corporate,Office Supplies,A,1,2011,9,3,0,2011-09,0.13,0.0063
+2011-09-22,Medium,84,325.75,Regular Air,-124.25,8.75,8.54,Jim Sink,Corporate,Furniture,A,0,2011,9,3,3,2011-09,0.1,0.0262
+2011-09-22,Medium,83,136.42,Regular Air,-8.38,5.85,2.27,Jim Sink,Corporate,Office Supplies,A,0,2011,9,3,3,2011-09,0.03,0.0166
+2009-02-15,Critical,23,93.05,Regular Air,15.27,3.8,1.49,Carlos Soltero,Consumer,Office Supplies,A,1,2009,2,1,6,2009-02,0.06,0.016

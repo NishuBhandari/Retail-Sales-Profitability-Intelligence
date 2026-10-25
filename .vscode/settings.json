@@ -1,0 +1,8 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\Nishu\\anaconda3\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}"
+    ],
+    "terminal.integrated.cwd": "${workspaceFolder}"
+}

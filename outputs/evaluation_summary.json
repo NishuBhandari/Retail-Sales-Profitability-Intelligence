@@ -1,0 +1,267 @@
+{
+    "dataset_metrics": {
+        "total_records": 670,
+        "date_range": [
+            "2009-01-05 00:00:00",
+            "2012-12-21 00:00:00"
+        ],
+        "total_sales": 1282169.63,
+        "total_profit": 129292.97,
+        "profit_margin_percentage": 10.08,
+        "total_quantity": 17476,
+        "profitable_orders_count": 341,
+        "unprofitable_orders_count": 329,
+        "profitable_order_ratio": 0.509
+    },
+    "regression": {
+        "target": "Sales",
+        "best_model": "Polynomial Regression (Deg 2)",
+        "models": {
+            "Linear Regression": {
+                "train": {
+                    "mae": 1385.9266,
+                    "mse": 6737078.6326,
+                    "rmse": 2595.5883,
+                    "r2": 0.4959
+                },
+                "test": {
+                    "mae": 1330.4354,
+                    "mse": 4100256.9807,
+                    "rmse": 2024.9091,
+                    "r2": 0.5903
+                }
+            },
+            "Decision Tree Regressor": {
+                "train": {
+                    "mae": 318.0202,
+                    "mse": 444661.9731,
+                    "rmse": 666.8298,
+                    "r2": 0.9667
+                },
+                "test": {
+                    "mae": 592.5416,
+                    "mse": 3370991.153,
+                    "rmse": 1836.0259,
+                    "r2": 0.6632
+                }
+            },
+            "Random Forest Regressor": {
+                "train": {
+                    "mae": 167.8439,
+                    "mse": 246684.5041,
+                    "rmse": 496.6734,
+                    "r2": 0.9815
+                },
+                "test": {
+                    "mae": 389.8126,
+                    "mse": 2175782.7639,
+                    "rmse": 1475.0535,
+                    "r2": 0.7826
+                }
+            },
+            "Polynomial Regression (Deg 2)": {
+                "train": {
+                    "mae": 696.2751,
+                    "mse": 1660328.6105,
+                    "rmse": 1288.5374,
+                    "r2": 0.8758
+                },
+                "test": {
+                    "mae": 645.926,
+                    "mse": 1908992.4882,
+                    "rmse": 1381.6629,
+                    "r2": 0.8092
+                }
+            }
+        }
+    },
+    "classification": {
+        "target": "is_profitable",
+        "best_model": "Random Forest Classifier",
+        "models": {
+            "Logistic Regression": {
+                "train": {
+                    "accuracy": 0.7369,
+                    "precision": 0.734,
+                    "recall": 0.7582,
+                    "f1": 0.7459,
+                    "confusion_matrix": [
+                        [
+                            188,
+                            75
+                        ],
+                        [
+                            66,
+                            207
+                        ]
+                    ]
+                },
+                "test": {
+                    "accuracy": 0.6791,
+                    "precision": 0.6582,
+                    "recall": 0.7647,
+                    "f1": 0.7075,
+                    "confusion_matrix": [
+                        [
+                            39,
+                            27
+                        ],
+                        [
+                            16,
+                            52
+                        ]
+                    ]
+                },
+                "classification_report": {
+                    "Unprofitable (0)": {
+                        "precision": 0.7090909090909091,
+                        "recall": 0.5909090909090909,
+                        "f1-score": 0.6446280991735537,
+                        "support": 66.0
+                    },
+                    "Profitable (1)": {
+                        "precision": 0.6582278481012658,
+                        "recall": 0.7647058823529411,
+                        "f1-score": 0.7074829931972789,
+                        "support": 68.0
+                    },
+                    "accuracy": 0.6791044776119403,
+                    "macro avg": {
+                        "precision": 0.6836593785960874,
+                        "recall": 0.677807486631016,
+                        "f1-score": 0.6760555461854163,
+                        "support": 134.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.6832798035140751,
+                        "recall": 0.6791044776119403,
+                        "f1-score": 0.6765246125587276,
+                        "support": 134.0
+                    }
+                }
+            },
+            "Decision Tree Classifier": {
+                "train": {
+                    "accuracy": 0.8228,
+                    "precision": 0.7764,
+                    "recall": 0.9158,
+                    "f1": 0.8403,
+                    "confusion_matrix": [
+                        [
+                            191,
+                            72
+                        ],
+                        [
+                            23,
+                            250
+                        ]
+                    ]
+                },
+                "test": {
+                    "accuracy": 0.694,
+                    "precision": 0.6709,
+                    "recall": 0.7794,
+                    "f1": 0.7211,
+                    "confusion_matrix": [
+                        [
+                            40,
+                            26
+                        ],
+                        [
+                            15,
+                            53
+                        ]
+                    ]
+                },
+                "classification_report": {
+                    "Unprofitable (0)": {
+                        "precision": 0.7272727272727273,
+                        "recall": 0.6060606060606061,
+                        "f1-score": 0.6611570247933884,
+                        "support": 66.0
+                    },
+                    "Profitable (1)": {
+                        "precision": 0.6708860759493671,
+                        "recall": 0.7794117647058824,
+                        "f1-score": 0.7210884353741497,
+                        "support": 68.0
+                    },
+                    "accuracy": 0.6940298507462687,
+                    "macro avg": {
+                        "precision": 0.6990794016110472,
+                        "recall": 0.6927361853832442,
+                        "f1-score": 0.691122730083769,
+                        "support": 134.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.6986586057056491,
+                        "recall": 0.6940298507462687,
+                        "f1-score": 0.6915699794164614,
+                        "support": 134.0
+                    }
+                }
+            },
+            "Random Forest Classifier": {
+                "train": {
+                    "accuracy": 0.9254,
+                    "precision": 0.9176,
+                    "recall": 0.9377,
+                    "f1": 0.9275,
+                    "confusion_matrix": [
+                        [
+                            240,
+                            23
+                        ],
+                        [
+                            17,
+                            256
+                        ]
+                    ]
+                },
+                "test": {
+                    "accuracy": 0.7836,
+                    "precision": 0.76,
+                    "recall": 0.8382,
+                    "f1": 0.7972,
+                    "confusion_matrix": [
+                        [
+                            48,
+                            18
+                        ],
+                        [
+                            11,
+                            57
+                        ]
+                    ]
+                },
+                "classification_report": {
+                    "Unprofitable (0)": {
+                        "precision": 0.8135593220338984,
+                        "recall": 0.7272727272727273,
+                        "f1-score": 0.768,
+                        "support": 66.0
+                    },
+                    "Profitable (1)": {
+                        "precision": 0.76,
+                        "recall": 0.8382352941176471,
+                        "f1-score": 0.7972027972027972,
+                        "support": 68.0
+                    },
+                    "accuracy": 0.7835820895522388,
+                    "macro avg": {
+                        "precision": 0.7867796610169492,
+                        "recall": 0.7827540106951871,
+                        "f1-score": 0.7826013986013987,
+                        "support": 134.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.7863799645838604,
+                        "recall": 0.7835820895522388,
+                        "f1-score": 0.7828193299238074,
+                        "support": 134.0
+                    }
+                }
+            }
+        }
+    }
+}
